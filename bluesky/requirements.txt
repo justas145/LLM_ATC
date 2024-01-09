@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+msgpack >= 1.0.0
+zmq
+pandas
+bluesky-simdata

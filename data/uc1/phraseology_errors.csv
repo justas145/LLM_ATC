@@ -1,0 +1,21 @@
+ATC_Command,Label,Correct_ATC_Command
+"G-CD report heading",Correct,N/A
+"G-CD, heading 350",Correct,N/A
+"G-CD for identification turn left heading 320 degrees",Correct,N/A
+"Squawk 7000",Correct,N/A
+"Borton Traffic G-ABCD taxiing for Runway 09 Borton",Correct,N/A
+"BIGJET 347 RVR 400 metres",Correct,N/A
+"G-CD radar service terminated due radar failure",Correct,N/A
+"Proceed to stand 26 caution jet blast",Correct,N/A
+"Works 21 stop immediately, aircraft crossing ahead",Correct,N/A
+"Tug 9 Ground tow approved from stand 25 to maintenance hangar 3 via taxiway Echo",Correct,N/A
+"G-CD, fly heading 500 degrees",Incorrect,"G-CD, fly heading 050 degrees"
+"Squawk 0000",Incorrect,"Squawk 7000" (for VFR conspicuity)
+"Runway 27 vacated at Alpha 1",Incorrect,"Runway 27 vacated"
+"Heading to stand 26, caution for birds",Incorrect,"Proceed to stand 26, caution for birds"
+"Taxi to Runway 09 via Alpha, Beta, and Charlie",Incorrect,"Taxi to Runway 09 via Alpha, Bravo, and Charlie"
+"Climb and maintain 5000 feet",Incorrect,"Climb to and maintain 5000 feet"
+"G-CD, squawk 123",Incorrect,"G-CD, squawk 0123"
+"Borton Traffic G-ABCD lining up for take-off Runway 09 Borton",Incorrect,"Borton Traffic G-ABCD lining up for departure Runway 09 Borton"
+"BIGJET 347 RVR is less than 60 km",Incorrect,"BIGJET 347 RVR is less than 60 metres"
+"G-CD, turn left 30 degrees",Incorrect,"G-CD, turn left heading 030 degrees"

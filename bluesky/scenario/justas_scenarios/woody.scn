@@ -1,0 +1,8 @@
+# SCN file to create a KL001 aircraft fying over checkpoint woody
+0:00:00.00>CRE KL001, B737, 51.890958,5.177844, 300, FL100, 170
+0:00:00.00>TRAILS ON
+0:00:00.00>ADDWPT KL001 FLYOVER
+0:00:00.00>ADDWPT KL001 WOODY
+0:00:00.00>ADDWPT KL001 RIVER
+# Start fast forward after five seconds of normal flight.
+0:00:05.00> DTMULT 20

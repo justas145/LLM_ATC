@@ -1,0 +1,1682 @@
+# ¶ Introduction
+
+This article is a phraseology generic database. Please consult following
+articles for real application of this database:
+
+  * IFR flight Phraseology Example
+  * VFR flight Phraseology Example
+
+# ¶ General phraseology
+
+## ¶ Description of level
+
+The air traffic controller instructions or clearances can contain a certain
+level to comply.
+
+> This level is transmitted by using the following possibilities:
+
+  * FLIGHT LEVEL (number)
+  * (number) METRES
+  * (number) FEET
+
+> This level description will be coded in the whole document as "(level)",
+> i.e. you can replace this code with the 3 possibilities described above.
+
+> Examples: FLIGHT LEVEL 90, FLIGHT LEVEL 340, 300 METRES, 8500 FEET.
+
+## ¶ Speed Control
+
+> ATC instruction to manage aircraft speed:
+
+  * REPORT SPEED
+  * MAINTAIN (number) KILOMETRES PER HOUR (or KNOTS) [OR GREATER (or OR LESS)] [UNTIL (significant point)]
+  * DO NOT EXCEED (number) KILOMETRES PER HOUR (or KNOTS);
+  * MAINTAIN PRESENT SPEED
+  * INCREASE (or REDUCE) SPEED TO (number) KILOMETRES PER HOUR (or KNOTS) [OR GREATER (or OR LESS)]
+  * INCREASE (or REDUCE) SPEED BY (number) KILOMETRES PER HOUR (or KNOTS);
+  * RESUME NORMAL SPEED
+  * REDUCE TO MINIMUM APPROACH SPEED
+  * REDUCE TO MINIMUM CLEAN SPEED
+  * RESUME PUBLISHED SPEED.
+
+> ATC instruction to cancel all speed restrictions:
+
+  * NO [ATC] SPEED RESTRICTIONS
+
+> Pilot answer to ATC giving its current speed:
+
+  * SPEED (number) KILOMETRES PER HOUR (or KNOTS)
+
+## ¶ Level changes, reports and rate
+
+> Climb ATC instruction:
+
+  * CLIMB TO (level)
+  * CLIMB TO AND MAINTAIN BLOCK (level) TO (level)
+  * CLIMB TO REACH (level) AT (time or significant point)
+  * CLIMB TO (level), REPORT LEAVING/REACHING/PASSING (level)
+  * CLIMB AT (number) FEET PER MINUTE [OR GREATER/LESS]
+  * CLIMB AT (number) METRES PER SECOND [OR GREATER/LESS]
+  * REPORT STARTING ACCELERATION (or DECELERATION). (only for supersonic jets)
+
+> Descent ATC instruction:
+
+  * DESCEND TO (level)
+  * DESCEND TO AND MAINTAIN BLOCK (level) TO (level)
+  * DESCEND TO REACH (level) AT (or BY) (time or significant point)
+  * DESCEND REPORT LEAVING (or REACHING, or PASSING) (level)
+  * DESCEND AT (number) FEET PER MINUTE [OR GREATER/LESS]
+  * DESCEND AT (number) METRES PER SECOND [OR GREATER/LESS]
+  * REPORT STARTING ACCELERATION/DECELERATION (only for supersonic jets)
+
+> Climb and descent ATC instruction to modify the level change process of an
+> aircraft:
+
+  * MAINTAIN AT LEAST (number) METRES (or FEET) ABOVE (or BELOW) (aircraft call sign)
+  * STOP CLIMB (or DESCENT) AT (level)
+  * CONTINUE CLIMB (or DESCENT) TO (level)
+  * EXPEDITE CLIMB (or DESCENT) [UNTIL PASSING (level)]
+  * WHEN READY CLIMB (or DESCEND) TO (level)
+  * EXPECT CLIMB (or DESCENT) AT (time or significant point)
+
+> ATC instruction to add restrictions:
+
+  * CROSS (significant point) AT (or ABOVE, or BELOW) (level)
+  * CROSS (significant point) AT (time) OR LATER (or BEFORE) AT (level)
+  * CRUISE CLIMB BETWEEN (levels) (or ABOVE (level))
+  * CROSS (distance) MILES, (GNSS or DME) [(direction)] OF (name of DME station) OR (distance) [(direction)] OF (significant point) AT (or ABOVE or BELOW) (level)
+
+> ATC instruction to check the pilot altimeter setting:
+
+  * CHECK ALTIMETER SETTING AND CONFIRM (level)
+
+> Pilot request for a flight level change:
+
+  * REQUEST LEVEL (or FLIGHT LEVEL or ALTITUDE)
+  * REQUEST DESCENT AT (time)
+
+> Specific words for ATC instruction to require action at a specific time or
+> place:
+
+  * IMMEDIATELY
+  * AFTER PASSING (significant point)
+  * AT (time or significant point)
+
+> ATC instruction to require action when convenient:
+
+  * WHEN READY (instruction)
+
+> ATC instruction to require an aircraft to climb or descend maintaining own
+> separation and VMC:
+
+  * MAINTAIN OWN SEPARATION AND VMC [FROM (level)] [TO (level)]
+  * MAINTAIN OWN SEPARATION AND VMC ABOVE (or BELOW, or TO) (level)
+
+> ATC instruction when there is doubt whether an aircraft can comply with a
+> clearance or instruction:
+
+  * IF UNABLE (alternative instructions) AND ADVISE
+
+> Pilot answer when he is unable to comply with a clearance or instruction:
+
+  * UNABLE
+
+> ATC instruction to ask a level confirmation to a pilot:
+
+  * CONFIRM (level)
+
+## ¶ TCAS alert management
+
+> Pilot and ATC exchange after the pilot starts to deviate from any ATC
+> clearance or instruction to comply with an ACAS resolution advisory (RA):
+
+  * Pilot: TCAS RA
+  * ATC: ROGER
+
+> Pilot and ATC exchange after the response to an ACAS RA is completed and a
+> return to the ATC clearance or instruction is initiated (Pilot and
+> controller interchange):
+
+  * Pilot: CLEAR OF CONFLICT, RETURNING TO (assigned clearance)
+  * ATC: ROGER (or alternative instructions)
+
+> Pilot and ATC exchange after the response to an ACAS RA is completed and the
+> assigned ATC clearance or instruction has been resumed (Pilot and controller
+> interchange):
+
+  * Pilot: CLEAR OF CONFLICT (assigned clearance) RESUMED
+  * ATC: ROGER (or alternative instructions)
+
+> Pilot and ATC exchange after an ATC clearance or instruction contradictory
+> to the ACAS RA is received, the flight crew will follow the RA and inform
+> ATC directly (Pilot and controller interchange):
+
+  * Pilot: UNABLE, TCAS RA
+  * ATC: ROGER
+
+## ¶ Instruct a manoeuvre
+
+> ATC instruction to instruct a pilot to execute specific manoeuvres outside
+> procedures for delaying aircraft or for separating aircraft in a potential
+> conflict situation:
+
+  * MAKE A THREE SIXTY TURN LEFT (or RIGHT) [reason]
+  * ORBIT LEFT (or RIGHT) [reason]
+  * MAKE ALL TURNS RATE ONE (or RATE HALF, or (number) DEGREES PER SECOND) START AND STOP ALL TURNS ON THE COMMAND "NOW"
+  * TURN LEFT (or RIGHT) NOW
+  * STOP TURN NOW
+
+> When it is necessary to specify a reason for vectoring or for the above
+> manoeuvres, the following phraseologies should be used:
+
+  * DUE TRAFFIC
+  * FOR SPACING
+  * FOR DELAY
+  * FOR DOWNWIND (or BASE, or FINAL)
+
+## ¶ Transfer of control and frequency change
+
+> ATC instruction: use "CONTACT" on a frequency when it is intended that the
+> _Pilot will initiate communications_ :
+
+  * CONTACT (unit call sign) (frequency) [NOW]
+  * AT (or OVER) (time or place) [or WHEN] [PASSING/LEAVING/REACHING (level)] CONTACT (unit call sign) (frequency)
+  * IF NO CONTACT (instructions)
+  * WHEN READY CONTACT (unit call sign) (frequency)
+  * REMAIN THIS FREQUENCY
+
+> ATC instruction: use "STAND BY" on a frequency when it is intended that the
+> _ATS unit will initiate communications_ :
+
+  * STAND BY FOR (unit call sign) (frequency)
+
+> ATC instruction: use "MONITOR" on a frequency when information is being
+> broadcast thereon:
+
+  * MONITOR (unit call sign) (frequency)
+
+> Example: MONITOR UNICOM 122.8
+
+> Pilot and ATC exchange for a frequency change request from a pilot:
+
+  * Pilot: REQUEST CHANGE TO (frequency)
+  * ATC: FREQUENCY CHANGE APPROVED
+
+## ¶ Entering airspace clearance
+
+> Entering and leaving airspace ATC instruction to a pilot from uncontrolled
+> zone:
+
+  * ENTER CONTROLLED AIRSPACE (or CONTROL ZONE) [VIA (significant point or route)] AT (level) [AT (time)]
+  * LEAVE CONTROLLED AIRSPACE (or CONTROL ZONE) [VIA (significant point or route)] AT (level) (or CLIMBING, or DESCENDING)
+
+> ATC instruction to instruct a pilot to join a specific point with
+> restrictions given by ATC:
+
+  * JOIN (specify) AT (significant point) AT (level) [AT (time)]
+
+## ¶ Termination of radar service
+
+> ATC instruction to inform a pilot that service is terminated:
+
+  * RADAR SERVICE (or IDENTIFICATION) TERMINATED [DUE (reason)] (instructions)
+  * WILL SHORTLY LOSE IDENTIFICATION (appropriate instructions or information)
+  * IDENTIFICATION LOST [reasons] (instructions)
+
+## ¶ Change of Call Sign
+
+> When an Air traffic controller has in his frequency two close aircraft call
+> signs that might create confusion, he may instruct aircraft to change its
+> call sign:
+
+> Example: AFR145 and AFR945
+
+> ATC instruction to instruct an aircraft to change its type of call sign:
+
+  * CHANGE YOUR CALL SIGN TO (new call sign) [UNTIL FURTHER ADVISED]
+
+> ATC instruction to advise an aircraft to revert to the call sign indicated
+> in the flight plan:
+
+  * REVERT TO FLIGHT PLAN CALL SIGN (call sign) [AT (significant point)].
+
+## ¶ Traffic information
+
+> ATC instruction to send traffic information to pilots:
+
+  * TRAFFIC (information)
+  * TRAFFIC (number) O'CLOCK (distance) (direction of flight) [any other pertinent information]
+
+> Additional information to complete the previous ATC traffic information
+> instruction:
+
+  * UNKNOWN
+  * SLOW MOVING
+  * FAST MOVING
+  * CLOSING
+  * OPPOSITE (or SAME) DIRECTION;
+  * OVERTAKING;
+  * CROSSING LEFT TO RIGHT (or RIGHT TO LEFT);
+  * (aircraft type)
+  * (level);
+  * CLIMBING (or DESCENDING);
+
+> ATC instruction to notify aircraft that there is no traffic in the vicinity:
+
+  * NO REPORTED TRAFFIC
+
+> ATC instruction to propose guidance for avoiding action:
+
+  * DO YOU WANT VECTORS?
+
+> Pilot Instruction or answer to ATC in order to get vectors for avoiding
+> action:
+
+  * REQUEST VECTORS;
+
+> ATC instruction giving vectors for avoiding action:
+
+  * TURN LEFT (or RIGHT) IMMEDIATELY HEADING (three digits) TO AVOID [UNIDENTIFIED] TRAFFIC (bearing by clock-reference and distance);
+  * TURN LEFT (or RIGHT) (number of degrees) DEGREES IMMEDIATELY TO AVOID [UNIDENTIFIED] TRAFFIC AT (bearing by clock-reference and distance).
+
+> ATC instruction to notify pilots that no more traffic threats exist:
+
+  * CLEAR OF TRAFFIC [appropriate instructions]
+
+> Pilot acknowledgement of traffic information:
+
+  * LOOKING OUT
+  * TRAFFIC IN SIGHT
+  * NEGATIVE CONTACT [reasons]
+  * [ADDITIONAL] TRAFFIC (direction) BOUND (type of aircraft) (level) ESTIMATED (or OVER) (significant point) AT (time)
+  * TRAFFIC IS (classification) UNMANNED FREE BALLOON(S) WAS [or ESTIMATED] OVER (place) AT (time) REPORTED (level(s)) [or LEVEL UNKNOWN] MOVING (direction) (other pertinent information, if any)
+
+## ¶ Meteorological conditions
+
+> Wind information given by ATC:
+
+  * [SURFACE] WIND (number) DEGREES (speed) (units)
+  * WIND AT (level) (number) DEGREES (number) KILOMETRES PER HOUR (or KNOTS)
+
+> Note: Wind is always expressed by giving the mean direction and speed and
+> any significant variations thereof.
+
+> RVR information given by ATC:
+
+  * RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (distance) (units)
+  * RUNWAY VISUAL RANGE (or RVR) RUNWAY (number) NOT AVAILABLE (or NOT REPORTED)
+
+> Multiple RVR observations given by ATC:
+
+  * RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (first position) (distance) (units), (second position) (distance) (units), (third position) (distance) (units)
+
+> Note1. Multiple RVR observations are always representative of the touchdown
+> zone, midpoint zone and the roll-out/stop end zone, respectively.
+
+> Note2. Where reports for three locations are given, the indication of these
+> locations may be omitted, provided that the reports are passed in the order
+> of touchdown zone, followed by the midpoint zone and ending with the roll-
+> out/stop end zone report.
+
+> RVR information given by ATC in the event that RVR information on any one
+> position is not available, this information will be included in the
+> appropriate sequence:
+
+  * RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (first position) (distance) (units), (second position) NOT AVAILABLE, (third position) (distance) (units)
+
+> Other weather information given by ATC:
+
+  * PRESENT WEATHER (details)
+  * CLOUD (amount, [(type)] and height of base) (units)
+  * SKY CLEAR
+  * CAVOK
+  * TEMPERATURE [MINUS] (number) (and/or DEWPOINT [MINUS] (number))
+  * QNH (number) [units]
+  * QFE (number) [(units)]
+  * (aircraft type) REPORTED (description) ICING (or TURBULENCE) [IN CLOUD] (area) (time)
+  * REPORT FLIGHT CONDITIONS
+
+> Note. CAVOK pronounced CAV-O-KAY.
+
+## ¶ Position Report
+
+> ATC instruction:
+
+  * REPORT PASSING (significant point)
+  * NEXT REPORT AT (significant point)
+
+> ATC instruction to omit position reports until a specified position:
+
+  * OMIT POSITION REPORTS [UNTIL (specify)]
+
+> ATC instruction to resume the position report procedure:
+
+  * RESUME POSITION REPORTING
+
+> Instruction to request a report at a specified place or distance:
+
+  * REPORT (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point)
+
+> Instruction to report at a specified place or distance:
+
+  * (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point)
+  * REPORT PASSING (three digits) RADIAL (name of VOR) VOR
+
+> Instruction to request a report of present position:
+
+  * REPORT (GNSS or DME) DISTANCE FROM (significant point) or (name of DME station)
+
+> Typical position report from a pilot:
+
+  * (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point).
+  * (coordinates North/South) and (coordinates East/West)
+
+## ¶ Aerodrome information
+
+> Information of aerodrome condition of use given by ATC:
+
+  * [(location)] RUNWAY SURFACE CONDITION RUNWAY (number) (condition)
+  * [(location)] RUNWAY SURFACE CONDITION RUNWAY (number) NOT CURRENT
+  * LANDING SURFACE (condition)
+  * CAUTION CONSTRUCTION WORK (location)
+  * CAUTION (specify reasons) RIGHT (or LEFT), (or BOTH SIDES) OF RUNWAY [number]
+  * CAUTION WORK IN PROGRESS (or OBSTRUCTION) (position and any necessary advice)
+  * RUNWAY REPORT AT (observation time) RUNWAY (number) (type of precipitant) UP TO (depth of deposit) MILLIMETRES. ESTIMATED SURFACE FRICTION GOOD (or MEDIUM TO GOOD, or MEDIUM, or MEDIUM TO POOR, or POOR
+  * BRAKING ACTION REPORTED BY (aircraft type) AT (time) GOOD (or MEDIUM to GOOD, or MEDIUM, or MEDIUM to POOR, or POOR)
+  * RUNWAY (or TAXIWAY) (number) WET [or STANDING WATER, or SNOW REMOVED (length and width as applicable), or TREATED, or COVERED WITH PATCHES OF DRY SNOW (or WET SNOW, or COMPACTED SNOW, or SLUSH, or FROZEN SLUSH, or ICE, or WET ICE, or ICE UNDERNEATH, or ICE AND SNOW, or SNOWDRIFTS, or FROZEN RUTS AND RIDGES)]
+  * TOWER OBSERVES (weather information)
+  * PILOT REPORTS (weather information)
+
+## ¶ Issuance of clearance
+
+> ATC own clearance given to the pilot:
+
+  * (aircraft call sign) CLEARED TO (or FOR) (clearance)
+
+> Example: N52515, runway 10, cleared to land. Example: N11444, runway 33R,
+> cleared for take-off.
+
+> Other ATC clearance reported by current ATC:
+
+  * (name of unit) CLEARS (aircraft call sign) TO (clearance)
+
+> Modified clearance given by ATC:
+
+  * RECLEARED (amended clearance details) [REST OF CLEARANCE UNCHANGED]
+  * RECLEARED (amended route portion) TO (significant point of original route) [REST OF CLEARANCE UNCHANGED]
+
+> Clearance can be departure, arrival, crossing zone, flight plan change
+
+> Indication of route and clearance limit for ATC clearance:
+
+  * FROM (location) TO (location)
+  * TO (location),
+  * TO (location), DIRECT
+  * TO (location), VIA (route and/or significant points)
+  * TO (location), FLIGHT PLANNED ROUTE
+  * TO (location), VIA (distance) DME ARC (direction) OF (name of DME station)
+
+> Specific case when clearance cannot be issued or followed by ATC or Pilot:
+
+  * (route) NOT AVAILABLE DUE (reason) ALTERNATIVE[S] IS/ARE (routes) ADVISE.
+  * CANNOT BE ISSUED
+  * UNABLE, TRAFFIC (direction) BOUND (type of aircraft) (level)
+  * ESTIMATED (or OVER) (significant point) AT (time) CALL SIGN
+  * (call sign) ADVISE INTENTIONS.
+
+## ¶ Transponder mode and code
+
+> ATC instruction to a pilot in order to change or check the transponder mode
+> and/or code:
+
+  * RESET SQUAWK [(mode)] (code)
+  * CONFIRM SQUAWK (code)
+
+Pilot read back:
+
+  * RESETTING [(mode)] (code)
+  * SQUAWKING (code)
+
+> ATC instruction for squawking ident procedure:
+
+  * SQUAWK [(code)] [AND] IDENT
+
+> ATC request for suspension of transponder operation (Stand-by):
+
+  * SQUAWK STANDBY
+
+> ATC request the pilot to set emergency code (MAYDAY):
+
+  * SQUAWK MAYDAY [CODE SEVEN-SEVEN-ZERO-ZERO]
+
+ATC request the pilot for the transmission of pressure altitude:
+
+  * SQUAWK CHARLIE
+  * TRANSMIT ADS-B ALTITUDE
+
+# ¶ In the vicinity of the aerodrome
+
+## ¶ Initial IFR clearance request
+
+> Every flight that is intended to be operated under Instrument Flight Rules
+> has to receive an initial IFR clearance. When receiving your initial
+> clearance, your flight plan is approved and you can perform your flight.
+
+> Clearances shall contain the following in the order listed:  
+>  
+>  \- aircraft identification.  
+>  \- clearance limit.  
+>  \- designator of the assigned SID, if applicable.  
+>  \- cleared level(s)  
+>  \- allocated SSR code (squawk/transponder code)  
+>  \- any other necessary instructions or information not contained in the SID
+> description, (non-standard departure route, instructions relating to change
+> of frequency ...)
+
+  * CLEARED TO (destination airfield) VIA (departure SID identifier) DEPARTURE, [RUNWAY (departure runway)], CLIMB (initial level), SQUAWK (squawk number).
+  * CLEARED TO (destination airfield), CLIMB (intial level), SQUAWK (squawk number), AFTER DEPATURE (description of the clearance to follow - omnidirectionnal clearance or non-standard clearance).
+
+> Example full clearance: Scandinavian 845, CLEARED TO Stockholm-Arlanda VIA
+> ROC1H departure, RUNWAY 14, CLIMB 4000 feet, SQUAWK 3456
+
+> Example of a vectored departure: Scandinavian 509, CLEARED to Stockholm
+> Arlanda, CLIMB altitude 4000 feet, SQUAWK 3737, AFTER DEPARTURE maintain
+> runway track, when passing 3000ft turn left direct Nicky VOR.
+
+## ¶ Starting procedures
+
+> Pilot requests permission to start:
+
+  * [aircraft location] REQUEST START UP
+  * [aircraft location] REQUEST START UP, INFORMATION (ATIS identification)
+
+> Reply given by ATC:
+
+  * START UP APPROVED
+  * START UP AT (time)
+  * EXPECT START UP AT (time)
+  * START UP AT OWN DISCRETION
+  * EXPECT DEPARTURE (time) START UP AT OWN DISCRETION
+
+> Caution: Starting procedures in some countries do not signify that the pilot
+> is obliged to start the engines. When receiving this instruction, it is the
+> permission to start the complex aircraft starting procedure that ends with
+> the engine running. Usually, the pilot in command shall initiate the start
+> of main engines in coordination with ground personnel around the aircraft.
+
+## ¶ Pushback Procedures
+
+Push back procedures are available at main airfields which accept large
+aircraft and a certain amount of aircraft with providing a specific truck
+which is capable to push any aircraft from park or gate position into a
+taxiway or any position where the aircraft can join a taxiway.
+
+> Note: When local procedures so prescribe, authorization for pushback should
+> be obtained from the control tower. Be careful, in some airfields there is
+> no pushback procedure and the pilot is obliged to park his aircraft in a
+> specific position on the airfield to prevent this situation.
+
+> Pilot requests a pushback from its position:
+
+  * [aircraft location] REQUEST PUSHBACK
+
+> ATC reply:
+
+  * PUSHBACK APPROVED
+  * STAND BY
+  * PUSHBACK AT OWN DISCRETION
+  * EXPECT (number) MINUTES DELAY DUE (reason).
+
+## ¶ Towing procedure
+
+> Pilot requests towing procedure:
+
+  * REQUEST TOWING FROM (Aircraft location) TO (location)
+
+> ATC reply:
+
+  * TOW APPROVED VIA (specific routing to be followed)
+  * HOLD POSITION
+  * STAND BY
+
+## ¶ Requesting departure information
+
+> Pilot requests current UTC time:
+
+  * REQUEST TIME CHECK
+
+> ATC reply:
+
+  * TIME (time)
+
+> Pilot requests departure information when no ATIS broadcast is available or
+> information is considered as outdated:
+
+  * REQUEST DEPARTURE INFORMATION
+
+> ATC reply:
+
+  * RUNWAY (number), WIND (direction and speed) (units) QNH (or QFE) (number) [(units)] TEMPERATURE [MINUS] (number), [VISIBILITY (distance) (units) (or RUNWAY VISUAL RANGE (or RVR) (distance) (units))] [TIME (time)]
+
+## ¶ Taxi procedures
+
+> Pilot requests taxi to the assigned runway given in the clearance:
+
+  * [aircraft type] [wake turbulence category if "heavy"] [aircraft location] REQUEST TAXI [intentions]
+
+> Pilot requests taxi to the active runway and he has not received any
+> clearance:
+
+  * [aircraft type] [wake turbulence category if "heavy"] [aircraft location] (flight rules) TO (aerodrome of destination) REQUEST TAXI [intentions]
+
+> ATC reply or ATC instruction without any request to a departing aircraft:
+
+  * TAXI TO HOLDING POINT [number] [RUNWAY (number)] [HOLD SHORT OF RUNWAY (number) (or CROSS RUNWAY (number))] [TIME (time)]- TAXI TO HOLDING POINT [number] [RUNWAY (number)] VIA (specific route to be followed) [HOLD SHORT OF RUNWAY (number) (or CROSS RUNWAY (number))] [TIME (time)]
+
+> Pilot requests detailed taxi instructions:
+
+  * [aircraft type] [wake turbulence category if "heavy"] REQUEST DETAILED TAXI INSTRUCTIONS
+
+> ATC instruction to a departing aircraft where detailed taxi instructions are
+> required:
+
+  * TAXI TO HOLDING POINT [number] [RUNWAY (number)] VIA (specific route to be followed) [TIME (time)] [HOLD SHORT OF RUNWAY (number) (or CROSS RUNWAY (number))]
+
+> ATC instruction to help a pilot join his destination on ground:
+
+  * TAKE (or TURN) FIRST (or SECOND) LEFT (or RIGHT)
+  * TAXI VIA (identification of taxiway)
+  * TAXI STRAIGHT AHEAD
+
+> ATC instruction to instruct a pilot to taxi to the final destination on
+> ground:
+
+  * TAXI TO TERMINAL [STAND (number)]
+  * TAXI TO GENERAL AVIATION AREA
+  * TAXI TO (other location)
+
+> ATC instruction to instruct a pilot to taxi via a runway:
+
+  * TAXI VIA RUNWAY (number)
+
+> Request movement from helicopter:
+
+  * REQUEST AIR-TAXIING FROM (or VIA) TO (location or routing as appropriate)
+
+> ATC reply or ATC instruction:
+
+  * AIR-TAXI TO (or VIA) (location or routing as appropriate) [CAUTION (dust, blowing snow, loose debris, taxiing light aircraft, personnel, etc.)]
+  * AIR TAXI VIA (direct, as requested, or specified route) TO (location, heliport, operating or movement area, active or inactive runway). AVOID (aircraft or vehicles or personnel)
+
+> Pilot requests backtracking operation:
+
+  * REQUEST BACKTRACK
+
+> ATC reply or ATC instruction:
+
+  * BACKTRACK APPROVED
+  * BACKTRACK RUNWAY (number)
+
+> ATC instruction to handle taxiing aircraft with traffic around:
+
+  * TAXI WITH CAUTION
+  * GIVE WAY TO (description and position of other aircraft)
+  * GIVING WAY TO (traffic)
+  * TRAFFIC (or type of aircraft) IN SIGHT
+  * TAXI INTO HOLDING BAY
+  * FOLLOW (description of other aircraft or vehicle)
+
+> Other ATC instruction on ground:
+
+  * VACATE RUNWAY
+  * EXPEDITE TAXI [(reason)]
+  * [CAUTION] TAXI SLOWER [reason]
+
+Pilot reply to previous instructions:
+
+  * RUNWAY VACATED
+  * EXPEDITING
+  * SLOWING DOWN.
+
+## ¶ Holding on Ground
+
+> ATC instruction:
+
+  * HOLD (direction) OF (position, runway number, etc.)
+  * HOLD POSITION
+  * HOLD (distance) FROM (position)
+  * HOLD SHORT OF (position)
+
+> Pilot replies to previous instructions:
+
+  * HOLDING
+  * HOLDING SHORT
+
+> The procedure words "ROGER" and "WILCO" are insufficient acknowledgement of
+> the instructions HOLD, HOLD POSITION and HOLD SHORT OF (position). In each
+> case the acknowledgement shall be by the phraseology HOLDING or HOLDING
+> SHORT, as appropriate.
+
+## ¶ Crossing runway
+
+> Pilot requests a runway cross:
+
+  * REQUEST CROSS RUNWAY (number)
+
+> Note. If the control tower is unable to see the crossing aircraft (e.g.
+> night, low visibility), the instruction should always be accompanied by a
+> request to report when the aircraft has vacated the runway.
+
+> ATC reply or ATC instruction:
+
+  * CROSS RUNWAY (number) [REPORT VACATED]
+  * EXPEDITE CROSSING RUNWAY (number) TRAFFIC (aircraft type) (distance) KILOMETRES (or MILES) FINAL
+  * TAXI TO HOLDING POINT [number] [RUNWAY (number)] VIA (specific route to be followed), [HOLD SHORT OF RUNWAY (number)] or [CROSS RUNWAY (number)]
+
+> Note. The pilot will, when requested, report "RUNWAY VACATED" when the
+> entire aircraft is beyond the relevant runway-holding position.
+
+> Pilot reports after runway vacation:
+
+  * RUNWAY VACATED.
+
+> 3.8. Preparation for take-off
+
+  * UNABLE TO ISSUE (designator) DEPARTURE (reasons)
+
+> ATC checks pilot to be ready for departure:
+
+  * REPORT WHEN READY [FOR DEPARTURE]
+  * ARE YOU READY [FOR DEPARTURE]?
+  * ARE YOU READY FOR IMMEDIATE DEPARTURE?
+
+> Pilot replies to ATC instruction:
+
+  * READY
+
+> ATC instruction to enter runway and await take-off clearance:
+
+  * LINE UP [AND WAIT]
+  * LINE UP RUNWAY (number)
+  * LINE UP. BE READY FOR IMMEDIATE DEPARTURE
+
+> ATC instruction for conditional clearances:
+
+  * (condition) LINE UP RUNWAY (number) (brief reiteration of the condition)
+
+> Acknowledgement of a conditional clearance by a pilot:
+
+  * (condition) LINING UP RUNWAY (number) (brief reiteration of the condition)
+
+> ATC confirmation or otherwise of the read-back of conditional clearance:
+
+  * [THAT IS] CORRECT
+  * (NEGATIVE) [I SAY AGAIN] Instruction (as appropriate)
+
+> Pilot requests departure information for take-off (VFR operation...):
+
+  * REQUEST DEPARTURE INSTRUCTIONS
+
+> ATC reply to departure information request:
+
+  * AFTER DEPARTURE TURN RIGHT (or LEFT, or CLIMB) (instructions as appropriate)
+
+## ¶ Take-off clearance
+
+> ATC clearance for take-off operation:
+
+  * RUNWAY (number) CLEARED FOR TAKE-OFF [REPORT AIRBORNE]
+
+> ATC instruction when reduced runway separation is used or traffic
+> information with close traffic around:
+
+  * (traffic information) RUNWAY (number) CLEARED FOR TAKE-OFF
+
+> ATC instruction when take-off clearance has not been complied with:
+
+  * TAKE OFF IMMEDIATELY OR VACATE RUNWAY
+  * TAKE OFF IMMEDIATELY OR HOLD SHORT OF RUNWAY
+
+> ATC instruction to cancel a take-off clearance before an aircraft has
+> commenced take-off roll:
+
+  * HOLD POSITION, CANCEL TAKE-OFF I SAY AGAIN CANCEL TAKE-OFF (reasons)
+
+> Pilot replies to ATC:
+
+  * HOLDING
+
+> ATC Instruction to stop a take-off after an aircraft has commenced take-off
+> roll:
+
+  * STOP IMMEDIATELY [(repeat aircraft call sign) STOP IMMEDIATELY]
+
+> Pilot replies to ATC:
+
+  * STOPPING
+
+> ATC instruction for helicopter operations:
+
+  * CLEARED FOR TAKE-OFF [FROM (location)] (present position, taxiway, final approach and take-off area, runway and number)
+
+## ¶ After take-off
+
+> Pilot requests turn after departure (VFR):
+
+  * REQUEST RIGHT (or LEFT) TURN
+
+> ATC replies:
+
+  * RIGHT (or LEFT) TURN APPROVED
+  * WILL ADVISE LATER FOR RIGHT (or LEFT) TURN
+
+> ATC Instruction to request airborne time:
+
+  * REPORT AIRBORNE
+
+> Pilot replies:
+
+  * AIRBORNE (time)
+
+> Pay attention that "Airborne" phraseology is used according to local
+> regulations. For some airports, this phraseology is mandatory, but for some
+> other reserved for military aircraft only, and forbidden in some countries.
+
+> ATC instruction with a level constraint:
+
+  * AFTER PASSING (level), (instructions)
+
+> ATC Instruction heading to be followed:
+
+  * CONTINUE RUNWAY HEADING (instructions)
+
+> ATC Instruction when a specific track is to be followed:
+
+  * TRACK EXTENDED CENTRE LINE (instructions)
+  * CLIMB STRAIGHT AHEAD (instructions)
+
+## ¶ Entering in aerodrome traffic circuit (VFR)
+
+> Pilot requests clearance to enter the zone requesting landing:
+
+  * [aircraft type] (position) (level) INFORMATION (ATIS identification) FOR LANDING
+  * [aircraft type] (position) (level) FOR LANDING
+
+> ATC replies:
+
+  * JOIN [(direction of circuit)] (position in circuit) (runway number) [SURFACE] WIND (direction and speed) (units)
+  * JOIN (position in circuit) [RUNWAY (number)] QNH (or QFE) (number) [(units)] [TRAFFIC (detail)]
+
+> ATC replies to instruct aircraft to perform straight-in-approach:
+
+  * MAKE STRAIGHT-IN APPROACH, RUNWAY (number) [SURFACE] WIND (direction and speed) (units) [TEMPERATURE [MINUS] (number)] QNH (or QFE) (number) [(units)] [TRAFFIC (detail)]
+
+> ATC information instruction when ATIS is not available or not read by pilot:
+
+  * [TEMPERATURE [MINUS] (number)] QNH (or QFE) (number) [(units)] [TRAFFIC (detail)]
+
+> Pilot informs ATC about its position inside the aerodrome circuit:
+
+  * (position in circuit, e.g. DOWNWIND/FINAL), RUNWAY (number)
+
+> ATC instructs a pilot his order inside the aerodrome circuit depending on
+> the other traffic:
+
+  * NUMBER (number) FOLLOW (aircraft type and position) [additional instructions if required].
+
+## ¶ Final approach instruction (VFR)
+
+> ATC instructs a pilot to perform the aerodrome circuit to FINAL:
+
+  * MAKE SHORT APPROACH RUNWAY (number)
+  * MAKE LONG APPROACH RUNWAY (number)
+  * REPORT FINAL (or LONG FINAL) RUNWAY (number)
+
+> Other possibilities of instructions for ATC to manage pilots in function of
+> traffic:
+
+  * REPORT BASE RUNWAY (number)
+  * CONTINUE APPROACH [PREPARE FOR POSSIBLE GO AROUND].
+  * EXTEND DOWNWIND RUNWAY (number)
+
+> Pilot reports final to ATC:
+
+  * FINAL RUNWAY (number)
+
+> The report "FINAL" is required less than 7 km (4 NM) from touchdown. The
+> report "LONG FINAL" is made when aircraft turn on to final approach at a
+> distance greater than 7 km (4 NM) from touchdown or when an aircraft on a
+> straight-in approach is 15 km (8 NM) from touchdown.
+
+## ¶ Landing clearance
+
+> ATC issuing landing clearance:
+
+  * RUNWAY (number) CLEARED TO LAND
+
+Instruction when reduced runway separation is used
+
+  * (traffic information), RUNWAY (number) CLEARED TO LAND
+
+> Note: in all landing clearances, the term "CLEARED" is mandatory. The term
+> "RUNWAY" followed by the runway number is also mandatory.
+
+> Instruction special operations:
+
+  * CLEARED TOUCH AND GO
+  * MAKE A FULL STOP
+
+> Pilot requests an approach along, or parallel to a runway, descending to an
+> agreed minimum level:
+
+  * REQUEST LOW APPROACH (reasons)
+
+> ATC instruction to instruct pilot to perform an approach along, or parallel
+> to a runway, descending to an agreed minimum level:
+
+  * CLEARED LOW APPROACH [RUNWAY (number)] [(altitude restriction if required) (go around instructions)]
+
+> Pilot requests to fly past the control tower or other observation point for
+> the purpose of visual inspection by persons on the ground
+
+  * REQUEST LOW PASS (reasons)
+
+> ATC instruction to fly past the control tower or other observation point for
+> the purpose of visual inspection by persons on the ground:
+
+  * CLEARED LOW PASS APPROACH [RUNWAY (number)] [(altitude restriction if required) (go around instructions)]
+
+> Helicopter pilot requests for landing or approaching the landing area:
+
+  * REQUEST STRAIGHT-IN (or CIRCLING APPROACH, LEFT (or RIGHT) TURN TO (location))
+
+> ATC instruction for helicopter operations:
+
+  * MAKE STRAIGHT-IN (or CIRCLING APPROACH, LEFT (or RIGHT) TURN TO (location, runway, taxiway, final approach and take-off area)) [ARRIVAL (or ARRIVAL ROUTE) (number, name, or code)]. [HOLD SHORT OF (active runway, extended runway centre line, other)].
+  * [REMAIN (direction or distance) FROM (runway, runway centre line, other helicopter or aircraft)]. [CAUTION (power lines, unlighted obstructions, wake turbulence, etc.)].
+  * CLEARED TO LAND.
+
+## ¶ Delaying VFR aircraft
+
+> ATC instruction in order to delay a VFR aircraft for landing:
+
+  * CIRCLE THE AERODROME
+  * ORBIT (RIGHT, or LEFT) [FROM PRESENT POSITION]
+  * MAKE ANOTHER CIRCUIT.
+
+## ¶ Missed approach
+
+> ATC instructs an aircraft to perform a missed approach and cancel his
+> landing:
+
+  * GO AROUND
+
+> Pilot mandatory read back or Pilot information to ATC when he performs a
+> unexpected missed approach:
+
+  * GOING AROUND.
+
+## ¶ Specific aerodrome operation
+
+> ATC Instruction when pilot requested visual inspection of landing gear
+> (during a low pass):
+
+  * LANDING GEAR APPEARS DOWN
+  * RIGHT (or LEFT, or NOSE) WHEEL APPEARS UP (or DOWN)
+  * WHEELS APPEAR UP
+  * RIGHT (or LEFT, or NOSE) WHEEL DOES NOT APPEAR UP (or DOWN)
+
+> ATC instruction informing about wake turbulence:
+
+  * CAUTION WAKE TURBULENCE [FROM ARRIVING (or DEPARTING) (type of aircraft)] [additional information as required]
+
+> Instruction jet blast on apron or taxiway:
+
+  * CAUTION JET BLAST
+
+> Instruction propeller-driven, aircraft slipstream:
+
+  * CAUTION SLIPSTREAM.
+
+## ¶ Runway vacating and communication after landing
+
+> ATC instruction after aircraft has landed successfully:
+
+  * CONTACT GROUND (frequency)
+  * WHEN VACATED CONTACT GROUND (frequency)
+  * EXPEDITE VACATING
+  * TAKE (or TURN) FIRST (or SECOND, or CONVENIENT) LEFT (or RIGHT) AND CONTACT GROUND (frequency)
+  * YOUR STAND (or GATE) (designation)
+
+> ATC instruction for helicopter operations:
+
+  * AIR-TAXI TO HELICOPTER STAND (or) HELICOPTER PARKING POSITION (area)
+  * AIR-TAXI TO (or VIA) (location or routing as appropriate) [CAUTION (dust, blowing snow, loose debris, taxiing light aircraft, personnel, etc.)]
+  * AIR-TAXI VIA (direct, as requested, or specified route) TO (location, heliport, operating or movement area, active or inactive runway). AVOID (aircraft or vehicles or personnel)
+
+# ¶ Approach and departure control services
+
+## ¶ Departure Instructions
+
+> ATC departure instructions:
+
+  * [AFTER DEPARTURE] TURN RIGHT (or LEFT) HEADING (three digits) (or CONTINUE RUNWAY HEADING) (or TRACK EXTENDED CENTRE LINE) TO (level or significant point) [(other instructions as required)]
+  * AFTER REACHING (or PASSING) (level or significant point) (instructions)
+  * TURN RIGHT (or LEFT) HEADING (three digits) TO (level) [TO INTERCEPT (track, route, airway, etc.)]
+  * (standard departure name and number) DEPARTURE
+  * TRACK (three digits) DEGREES [MAGNETIC (or TRUE)] TO (or FROM) (significant point) UNTIL (time, or REACHING (fix or significant point or level)) [BEFORE PROCEEDING ON COURSE]
+  * CLEARED (designation) DEPARTURE
+
+> ATC instruction to proceed direct with advance notice of a future
+> instruction to rejoin the SID:
+
+  * CLEARED DIRECT (waypoint), CLIMB TO (level), EXPECT TO REJOIN SID [(SID designator)] [AT (waypoint)], then REJOIN SID [(SID designator)] [AT (waypoint)]
+  * CLEARED DIRECT (waypoint),CLIMB TO (level), then REJOIN SID (SID designator) AT (waypoint).
+
+## ¶ Climb via SID
+
+> ATC clearance to climb on a SID which has published level and/or speed
+> restrictions, where the pilot is to climb to the cleared level and comply
+> with published level restrictions, follow the lateral profile of the SID and
+> comply with published speed restrictions or ATC issued speed control
+> instructions as applicable:
+
+  * CLIMB VIA SID TO (level).
+
+> ATC clearance to cancel level restriction(s) of the vertical profile of a
+> SID during climb:
+
+  * [CLIMB VIA SID TO (level)], CANCEL LEVEL RESTRICTION(S)
+
+> ATC clearance to cancel specific level restriction(s) of the vertical
+> profile of a SID during climb:
+
+  * [CLIMB VIA SID TO (level)], CANCEL LEVEL RESTRICTION(S) AT (point(s))
+
+> ATC clearance to cancel speed restrictions of a SID during climb:
+
+  * [CLIMB VIA SID TO (level)], CANCEL SPEED RESTRICTION(S)
+
+> ATC clearance to cancel specific speed restrictions of a SID during climb:
+
+  * [CLIMB VIA SID TO (level)], CANCEL SPEED RESTRICTION(S) AT  
+(point(s))
+
+> ATC clearance to climb and to cancel speed and level restrictions of a SID:
+
+  * CLIMB UNRESTRICTED TO (level) (or) CLIMB TO (level), CANCEL LEVEL AND SPEED RESTRICTIONS
+
+## ¶ Vectoring instructions
+
+> Different ATC instructions for vectoring instruction:
+
+  * FLY HEADING (three digits);
+  * TURN LEFT (or RIGHT) HEADING (three digits) [reason];
+  * TURN LEFT (or RIGHT) (number of degrees) DEGREES [reason];
+
+> Other ATC instructions available in vectoring procedure
+
+  * LEAVE (significant point) HEADING (three digits);
+  * CONTINUE HEADING (three digits);
+  * CONTINUE PRESENT HEADING;
+  * STOP TURN HEADING (three digits);
+  * FLY HEADING (three digits), WHEN ABLE PROCEED DIRECT (name) (significant point);
+  * HEADING IS GOOD.
+
+> ATC instructions to notify aircraft that the vectoring procedure is
+> terminated:
+
+  * RESUME OWN NAVIGATION (position of aircraft) (specific instructions);
+  * RESUME OWN NAVIGATION [DIRECT] (significant point) [MAGNETIC TRACK (three digits) DISTANCE (number) KILOMETRES (or MILES)].
+
+> When it is necessary to specify a reason for vectoring or for the above
+> manoeuvres, the following phraseologies should be used:
+
+  * DUE TRAFFIC
+  * FOR SPACING
+  * FOR DELAY
+  * FOR DOWNWIND (or BASE, or FINAL)
+
+> ATC instruction to request avoiding action:
+
+  * DO YOU WANT VECTORS?
+
+> Pilot Instruction or answer to ATC in order to get vectoring guidance:
+
+  * REQUEST VECTORS
+
+## ¶ Descent via STAR
+
+> ATC clearance to descend on a STAR which has published level and/or speed
+> restrictions, where the pilot is to descend to the cleared level and comply
+> with published level restrictions, follow the lateral profile of the STAR
+> and comply with published speed restrictions or ATC issued speed control
+> instructions:
+
+  * DESCEND VIA STAR TO (level)
+
+> ATC clearance to cancel level restrictions of a STAR during descent:
+
+  * [DESCEND VIA STAR TO (level)], CANCEL LEVEL RESTRICTION(S)
+
+> ATC clearance to cancel specific level restrictions of a STAR during
+> descent:
+
+  * [DESCEND VIA STAR TO (level)], CANCEL LEVEL RESTRICTION(S) AT (point(s))
+
+> ATC clearance to cancel speed restrictions of a STAR during descent:
+
+  * [DESCEND VIA STAR TO (level)], CANCEL SPEED RESTRICTION(S)
+
+> ATC clearance to cancel specific speed restrictions of a STAR during
+> descent:
+
+  * [DESCEND VIA STAR TO (level)], CANCEL SPEED RESTRICTION(S) AT (point(s))
+
+> ATC clearance to descend and to cancel speed and level restrictions of a
+> STAR:
+
+  * DESCEND UNRESTRICTED TO (level) or DESCEND TO (level), CANCEL LEVEL AND SPEED RESTRICTIONS
+
+## ¶ Holding clearance
+
+> ACT clearance to pilot to perform a published holding procedure over a
+> facility or fix:
+
+  * CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] AS PUBLISHED EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time)
+
+> Pilot requests when he requests holding instructions if there are no
+> published parameters to follow:
+
+  * REQUEST HOLDING INSTRUCTIONS
+
+> ATC clearance for an IFR holding procedure when a detailed holding clearance
+> is required:
+
+  * CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [(specified) RADIAL, COURSE, INBOUND TRACK (three digits) DEGREES] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+  * CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+  * CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD BETWEEN (distance) AND (distance) DME [RIGHT (or LEFT) HAND PATTERN] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+
+> ATC Instruction when visual holding is required:
+
+  * HOLD VISUAL [OVER] (position), (or BETWEEN (two prominent landmarks))
+
+## ¶ Expected approach time
+
+> When an aircraft is performing a long arrival or holding patterns, the ATC
+> can issue an expected approach time:
+
+  * EXPECTED APPROACH TIME (time)
+  * REVISED EXPECTED APPROACH TIME (time)
+  * DELAY NOT DETERMINED (reasons)
+  * NO DELAY EXPECTED
+
+## ¶ Approach instruction
+
+> ATC clearance given to aircraft to perform a STAR or arrival procedure:
+
+  * CLEARED (designation) ARRIVAL
+  * CLEARED TO (clearance limit) (designation)
+  * CLEARED (or PROCEED) (details of route to be followed)
+
+> ATC clearance to proceed direct with advance notice of a future instruction
+> to rejoin the STAR:
+
+  * CLEARED DIRECT (waypoint), DESCEND TO (level), EXPECT TO REJOIN STAR [(STAR designator)] AT (waypoint), then REJOIN STAR [(STAR designator)] [AT (waypoint)]
+  * CLEARED DIRECT (waypoint), DESCEND TO (level), then REJOIN STAR (STAR designator) AT (waypoint)
+
+> ATC instruction to instruct a pilot his expected procedure to perform during
+> a vectoring procedure:
+
+  * VECTORING FOR (type of pilot-interpreted aid) APPROACH RUNWAY (number)
+  * VECTORING FOR VISUAL APPROACH RUNWAY (number) REPORT FIELD (or RUNWAY) IN SIGHT
+  * VECTORING FOR (positioning in the circuit)
+  * VECTORING FOR SURVEILLANCE RADAR APPROACH RUNWAY (number)
+  * VECTORING FOR PRECISION APPROACH RUNWAY (number)
+
+> Pilot requests for a specific approach:
+
+  * REQUEST (type of approach) APPROACH [RUNWAY (number)]
+  * REQUEST (MLS/RNAV plain-language designator)
+  * REQUEST STRAIGHT-IN [(type of approach)] APPROACH [RUNWAY (number)]
+  * REQUEST VISUAL APPROACH
+  * CLEARED VISUAL APPROACH RUNWAY (number)
+
+ATC answers to previous pilot requests:
+
+  * (type) APPROACH NOT AVAILABLE DUE (reason) (alternative instructions).
+
+> ATC instruction to give information to pilot about manoeuvre in progress
+> outside approach clearance:
+
+  * INTERCEPT (localizer course or radio aid) [REPORT ESTABLISHED]
+  * YOU WILL INTERCEPT (radio aid or track) (distance) FROM (significant point or TOUCHDOWN)
+  * EXPECT VECTOR ACROSS (localizer course or radio aid) (reason)
+  * THIS TURN WILL TAKE YOU THROUGH (localizer course or radio aid) [reason]
+  * TAKING YOU THROUGH (localizer course or radio aid) [reason]
+  * MAINTAIN (altitude) UNTIL GLIDE PATH INTERCEPTION
+
+> ATC clearance given to aircraft performing IFR approach:
+
+  * CLEARED (type of approach) APPROACH [RUNWAY (number)]
+  * CLEARED (type of approach) RUNWAY (number) FOLLOWED BY CIRCLING TO RUNWAY (number)
+  * CLEARED APPROACH [RUNWAY (number)]
+  * COMMENCE APPROACH AT (time)
+  * CLEARED STRAIGHT-IN [(type of approach)] APPROACH [RUNWAY (number)]
+  * CLEARED (MLS/RNAV plain-language designator)
+
+> ATC instruction when he requests a position report:
+
+  * REPORT RUNWAY [LIGHTS] IN SIGHT
+  * REPORT (significant point) [OUTBOUND, or INBOUND]
+  * REPORT COMMENCING PROCEDURE TURN
+  * REPORT ESTABLISHED ON [ILS] LOCALIZER (or ON GBAS/SBAS/MLS APPROACH COURSE)
+  * REPORT ESTABLISHED ON GLIDE PATH
+
+> ATC instruction to request if a pilot is able to accept a visual approach:
+
+  * ADVISE ABLE TO ACCEPT VISUAL APPROACH RUNWAY (number)
+
+> ATC instruction in case of successive visual approaches when the pilot of a
+> succeeding aircraft has reported having the preceding aircraft in sight:
+
+  * CLEARED VISUAL APPROACH RUNWAY (number), MAINTAIN OWN SEPARATION FROM PRECEDING (aircraft type and wake turbulence category as appropriate) [CAUTION WAKE TURBULENCE]
+
+> ATC instruction when 2 aircraft are in visual separation:
+
+  * MAINTAIN OWN SEPARATION
+  * MAINTAIN VMC
+  * REPORT VISUAL
+
+> ATC instruction to ask a pilot if he is familiar with a procedure to
+> anticipate any lack of knowledge:
+
+  * ARE YOU FAMILIAR WITH (name) APPROACH PROCEDURE
+
+> Pilot requests a descent below the minimum IFR altitude in VMC conditions:
+
+  * REQUEST VMC DESCENT
+
+> Pilot wishes to be positioned a specific distance from touchdown:
+
+  * REQUEST (distance) FINAL
+
+## ¶ Manoeuvres during independent and dependent parallel approaches
+
+> ATC instruction for parallel approach:
+
+  * CLEARED FOR (type of approach) APPROACH RUNWAY (number) LEFT (or RIGHT)
+  * YOU HAVE CROSSED THE LOCALIZER (or GBAS/SBAS/MLS FINAL APPROACH COURSE). TURN LEFT (or RIGHT) IMMEDIATELYAND RETURN TO THE LOCALIZER (or GBAS/SBAS/MLS FINAL APPROACH COURSE)
+  * ILS (or MLS) RUNWAY (number) LEFT (or RIGHT) LOCALIZER (or MLS) FREQUENCY IS (frequency)
+
+> ATC instruction for avoidance action when an aircraft is observed
+> penetrating the NTZ:
+
+  * TURN LEFT (or RIGHT) (number) DEGREES (or HEADING) (three digits) IMMEDIATELY TO AVOID TRAFFIC [DEVIATING FROM ADJACENT APPROACH], CLIMB TO (altitude)
+
+> ATC instruction for avoidance action below 120 m (400 ft) above the runway
+> threshold elevation where parallel approach obstacle assessment surfaces
+> (PAOAS) criteria are being applied:
+
+  * CLIMB TO (altitude) IMMEDIATELY TO AVOID TRAFFIC [DEVIATING FROM ADJACENT APPROACH] (further instructions)
+
+## ¶ Other approach instructions
+
+> ATC instructions to help pilots in approach phase when they are off-track
+> for example:
+
+  * COMMENCE DESCENT NOW [TO MAINTAIN A (number) DEGREE GLIDE PATH]
+  * (distance) FROM TOUCHDOWN ALTITUDE (or HEIGHT) SHOULD BE (numbers and units)
+
+> ATC instructions for the completion of approach:
+
+  * REPORT VISUAL
+  * REPORT RUNWAY [LIGHTS] IN SIGHT
+  * APPROACH COMPLETED [CONTACT (unit)]�?f
+
+# ¶ Area control services
+
+## ¶ Altitude Management to maintain separation
+
+In addition to CLIMB and DESCENT instructions described in the general
+phraseology, we have:
+
+> ATC instructions to maintain the level of an aircraft before any change
+> given:
+
+  * MAINTAIN (level) [TO (significant point)]
+  * MAINTAIN (level) UNTIL PASSING (significant point)
+  * MAINTAIN (level) UNTIL (minutes) AFTER PASSING (significant point)
+  * MAINTAIN (level) UNTIL (time)
+  * MAINTAIN (level) UNTIL ADVISED BY (name of ATC unit)
+  * MAINTAIN (level) UNTIL FURTHER ADVISED
+  * MAINTAIN (level) WHILE IN CONTROLLED AIRSPACE
+  * MAINTAIN BLOCK (level) TO (level).
+
+> Note: The term "MAINTAIN" shall not be used in lieu of "DESCEND" or "CLIMB"
+> when instructing an aircraft to change level.
+
+## ¶ Separation instructions
+
+> ATC instructs to overfly a significant point at a certain time in order to
+> maintain separation:
+
+  * CROSS (significant point) AT (time) [OR LATER (or OR BEFORE)]
+  * ADVISE IF ABLE TO CROSS (significant point) AT (time or level)
+
+> ATC instructs speed restriction on cruise in order to maintain separation
+> between aircraft:
+
+  * MAINTAIN MACH (number) [OR GREATER (or OR LESS)] [UNTIL (significant point)]
+  * DO NOT EXCEED MACH (number)
+
+> ATC instructs a specific track to aircraft in order to maintain separation:
+
+  * MAINTAIN TRACK BETWEEN (significant point) AND (significant point). REPORT ESTABLISHED ON THE TRACK
+  * CONFIRM ESTABLISHED ON THE TRACK BETWEEN (significant point) AND (significant point) [WITH ZERO OFFSET]
+
+> Pilot answers:
+
+  * ESTABLISHED ON THE TRACK BETWEEN (significant point) AND (significant point) [WITH ZERO OFFSET]
+  * ESTABLISHED ON THE TRACK
+
+> When used to apply a lateral VOR/GNSS separation confirmation of zero offset
+> is required:
+
+  * CONFIRM ZERO OFFSET
+  * AFFIRM ZERO OFFSET
+
+## ¶ Track parallel to the cleared route
+
+> ATC instruction to pilot to per-form a track parallel to the assigned route:
+
+  * ADVISE IF ABLE TO PROCEED PARALLEL OFFSET
+  * PROCEED OFFSET (distance) RIGHT/LEFT OF (route) (track) [CENTRE LINE] [AT (significant point or time)] [UNTIL (significant point or time)]
+  * CANCEL OFFSET (instructions to rejoin cleared flight route or other information)
+
+## ¶ Vectoring instructions
+
+> Different ATC instructions for vectoring instruction:
+
+  * FLY HEADING (three digits);
+  * TURN LEFT (or RIGHT) HEADING (three digits) [reason];
+  * TURN LEFT (or RIGHT) (number of degrees) DEGREES [reason];
+
+> Other ATC instructions available in vectoring procedure:
+
+  * LEAVE (significant point) HEADING (three digits);
+  * CONTINUE HEADING (three digits);
+  * CONTINUE PRESENT HEADING;
+  * STOP TURN HEADING (three digits);
+  * FLY HEADING (three digits), WHEN ABLE PROCEED DIRECT (name) (significant point);
+  * HEADING IS GOOD.
+
+> ATC instructions to notify aircraft that the vectoring procedure is
+> terminated:
+
+  * RESUME OWN NAVIGATION (position of aircraft) (specific instructions);
+  * RESUME OWN NAVIGATION [DIRECT] (significant point) [MAGNETIC TRACK (three digits) DISTANCE (number) KILOMETRES (or MILES)].
+
+> When it is necessary to specify a reason for vectoring or for the above
+> manoeuvres, the following phraseologies should be used:
+
+  * DUE TRAFFIC
+  * FOR SPACING
+  * FOR DELAY
+  * FOR DOWNWIND (or BASE, or FINAL)
+
+> ATC instruction to request avoiding action:
+
+  * DO YOU WANT VECTORS?
+
+> Pilot Instruction or answer to ATC in order to get vectoring guidance:
+
+  * REQUEST VECTORS
+
+## ¶ Holding clearance
+
+> ACT clearance to pilot to perform a published holding procedure over a
+> facility or fix:
+
+  * CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] AS PUBLISHED EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time)
+
+> Pilot requests when he requests holding instructions if there are no
+> published parameters to follow:
+
+  * REQUEST HOLDING INSTRUCTIONS
+
+> ATC clearance for an IFR holding procedure when a detailed holding clearance
+> is required:
+
+  * CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [(specified) RADIAL, COURSE, INBOUND TRACK (three digits) DEGREES] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+  * CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+  * CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD BETWEEN (distance) AND (distance) DME [RIGHT (or LEFT) HAND PATTERN] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary)
+
+# ¶ Coordination between ATS units
+
+## ¶ Estimates and revision
+
+> During coordination ATC may exchange some information about estimates:
+
+  * ESTIMATE [direction of flight] (aircraft call sign) [SQUAWKING (SSR code)] (type) ESTIMATED (significant point) (time) (level) (or DESCENDING FROM (level) TO (level)) [SPEED (filed TAS)] (route) [REMARKS]
+  * ESTIMATE (significant point) ON (aircraft call sign)
+
+> ATC Instruction receiving unit reply if flight plan details are not
+> available:
+
+  * NO DETAILS
+
+> Instruction receiving unit reply if flight plan details are available:
+
+  * (aircraft type) (destination) Instruction sending unit reply [SQUAWKING (SSR code)] [ESTIMATED] (significant point) (time) AT (level)
+  * ESTIMATE UNMANNED FREE BALLOON(S) (identification and classification) ESTIMATED OVER (place) AT (time) REPORTED FLIGHT LEVEL(S) (figure or figures) [or FLIGHT LEVEL UNKNOWN] MOVING (direction) ESTIMATED GROUND SPEED (figure) (other pertinent information, if any)
+  * REVISION (aircraft call sign) (details as necessary)
+
+## ¶ Transfer of control
+
+> ATC will transfer aircraft to nearby ATC before leaving area of
+> responsibility:
+
+  * REQUEST RELEASE OF (aircraft call sign)
+  * (aircraft call sign) RELEASED [AT (time)] [conditions/restrictions]
+  * IS (aircraft call sign) RELEASED [FOR CLIMB (or DESCENT)]
+  * (aircraft call sign) NOT RELEASED [UNTIL (time or significant point)]
+  * UNABLE (aircraft call sign) [TRAFFIC IS (details)]
+
+## ¶ Change of clearance
+
+> ATC may ask a change in the clearance for an aircraft:
+
+  * MAY WE CHANGE CLEARANCE OF (aircraft call sign) TO (details of alteration proposed)
+  * AGREED TO (alteration of clearance) OF (aircraft call sign)
+  * UNABLE (aircraft call sign)
+  * UNABLE (desired route, level, etc.) [FOR (aircraft call sign)] [DUE (reason)] (alternative clearance proposed)
+
+## ¶ Approval request
+
+  * APPROVAL REQUEST (aircraft call sign) ESTIMATED DEPARTURE FROM (significant point) AT (time)
+  * (aircraft call sign) REQUEST APPROVED [(restriction if any)]
+  * (aircraft call sign) UNABLE (alternative instructions)
+
+## ¶ Inbound release
+
+> ATC may define the release point of aircraft during a handover procedure;
+> for example:
+
+  * [INBOUND RELEASE] (aircraft call sign) [SQUAWKING (SSR code)] (type) FROM (departure point) RELEASED AT (significant point, or time, or level) CLEARED TO AND ESTIMATING (clearance limit) (time) AT (level) [EXPECTED APPROACH TIME or NO DELAY EXPECTED] CONTACT AT (time)
+
+## ¶ Handover
+
+> ATC may request a handover procedure:
+
+  * HANDOVER (aircraft call sign) [SQUAWKING (SSR code)] POSITION (aircraft position) (level)
+
+## ¶ Expedition of clearance
+
+> ATC may request an expedition of clearance given:
+
+  * EXPEDITE CLEARANCE (aircraft call sign) EXPECTED DEPARTURE FROM (place) AT (time)
+  * EXPEDITE CLEARANCE (aircraft call sign) [ESTIMATED] OVER (place) AT (time) REQUESTS (level or route, etc.)
+
+## ¶ Reduced vertical separation (RVSM)
+
+> ATC Communication states that a specific aircraft is unable to perform RVSM:
+
+  * NEGATIVE RVSM [(supplementary information, e.g. State aircraft)]
+
+ATC Communication states that a specific aircraft is unable to conduct RVSM
+operations due to severe turbulence or other severe meteorological phenomena
+or equipment failure, as applicable:
+
+  * UNABLE RVSM DUE TURBULENCE (or EQUIPMENT, as applicable)
+
+# ¶ Phraseology used in PAN, DISTRESS situations faced by pilots
+
+## ¶ Minimum fuel
+
+> Pilot and ATC exchange for the minimum fuel procedure:
+
+  * Pilot: MINIMUM FUEL
+  * ATC: ROGER [NO DELAY EXPECTED or EXPECT (delay information)].
+
+## ¶ Degradation of aircraft
+
+> Pilot in some cases should advise ATC of the degradation of his aircraft
+> when performing procedures or manoeuvres:
+
+  * NAVIGATION PERFORMANCE UNABLE RNP (specify type) (or RNAV) [DUE TO (reason, e.g. LOSS OF RAIM or RAIM ALERT)]
+  * BASIC GNSS (or SBAS, or GBAS) UNAVAILABLE FOR (specify operation) [FROM (time) TO (time) (or UNTIL FURTHER NOTICE)]
+  * BASIC GNSS UNAVAILABLE [DUE TO (reason, e.g. LOSS OF RAIM or RAIM ALERT)]
+  * NAVIGATION PERFORMANCE UNABLE (navigation aid type)
+
+## ¶ Emergency descent
+
+> Pilot shall warn ATC when performing emergency descent (mandatory):
+
+  * EMERGENCY DESCENT (intentions)
+
+> ATC shall broadcast information on air when one or several aircraft are
+> concerned by this emergency descent:
+
+  * ATTENTION ALL AIRCRAFT IN THE VICINITY OF [or AT] (significant point or location) EMERGENCY DESCENT IN PROGRESS FROM (level) (followed as necessary by specific instructions, clearances, traffic information, etc.)
+
+## ¶ Loss of communication (limited use at IVAO)
+
+> ATC instruction to instruct an aircraft before losing this aircraft on
+> frequency :
+
+  * [IF] RADIO CONTACT LOST (instructions)
+  * IF NO TRANSMISSIONS RECEIVED FOR (number) MINUTES (or SECONDS) (instructions)
+  * REPLY NOT RECEIVED (instructions)
+
+> ATC instruction when ATC suspect a loss of communication from an aircraft;
+> he may test the communication link with the solution given below:
+
+  * IF YOU READ [manoeuvre instructions or SQUAWK (code or IDENT)]
+  * (manoeuvre, SQUAWK or IDENT) OBSERVED. POSITION (position of aircraft). [(instructions)]
+
+# ¶ Specific cases outside PAN, DISTRESS
+
+## ¶ Alerting phraseology
+
+> ATC instruction for low altitude warning:
+
+(aircraft call sign) LOW ALTITUDE WARNING, CHECK YOUR ALTITUDE IMMEDIATELY,
+QNH IS (number) [(units)]. [THE MINIMUM FLIGHT ALTITUDE IS (altitude)]
+
+> ATC instruction for terrain alert:
+
+(aircraft call sign) TERRAIN ALERT, (suggested pilot action, if possible).
+
+## ¶ 8.33 kHz channel spacing
+
+> In this paragraph, the term "point" is used only in the context of naming
+> the 8.33 kHz channel spacing concept and does not constitute any change to
+> existing ICAO provisions or phraseology regarding the use of the term
+> "decimal".
+
+> Instruction to request confirmation of 8.33 kHz capability:
+
+  * CONFIRM EIGHT POINT THREE THREE
+
+> Instruction to indicate 8.33 kHz capability:
+
+  * AFFIRM EIGHT POINT THREE THREE
+
+> Instruction to indicate lack of 8.33 kHz capability:
+
+  * NEGATIVE EIGHT POINT THREE THREE
+
+> Instruction to request status in respect of 8.33 kHz exemption:
+
+  * CONFIRM EIGHT POINT THREE THREE EXEMPTED
+
+> Instruction to indicate 8.33 kHz exempted status:
+
+  * AFFIRM EIGHT POINT THREE THREE EXEMPTED
+
+> Instruction to indicate 8.33 kHz non-exempted status:
+
+  * NEGATIVE EIGHT POINT THREE THREE EXEMPTED
+
+> Instruction to indicate that a certain clearance is given because otherwise
+> a non-equipped and/or non-exempted aircraft would enter airspace of
+> mandatory carriage:
+
+  * DUE EIGHT POINT THREE THREE REQUIREMENT
+
+## ¶ Reduced vertical separation minimum (RVSM) operation
+
+> ATC instruction to ascertain RVSM approval status of an aircraft:
+
+  * CONFIRM RVSM APPROVED
+
+> Pilot answer to report RVSM approved status or non-approved status followed
+> by supplementary information:
+
+  * AFFIRM RVSM
+  * NEGATIVE RVSM [(supplementary information, e.g. State aircraft)]
+
+> ATC instruction to report RVSM non-approved status followed by supplementary
+> instruction:
+
+  * UNABLE ISSUE CLEARANCE INTO RVSM AIRSPACE, MAINTAIN [or DESCEND TO, or CLIMB TO] (level)
+
+> Pilot report when severe turbulence affects the capability of an aircraft to
+> maintain height-keeping requirements for RVSM:
+
+  * UNABLE RVSM DUE TURBULENCE
+
+> Pilot report that the equipment of an aircraft has degraded below minimum
+> aviation system performance standards:
+
+  * UNABLE RVSM DUE EQUIPMENT
+
+> ATC Instruction to request an aircraft to provide information as soon as
+> RVSM-approved status has been regained or the pilot is ready to resume RVSM
+> operations:
+
+  * REPORT WHEN ABLE TO RESUME RVSM
+
+> ATC Instruction to request confirmation that an aircraft has regained RVSM-
+> approved status or a pilot is ready to resume RVSM operations:
+
+  * CONFIRM ABLE TO RESUME RVSM
+
+> Pilot instruction to report ability to resume RVSM operations after an
+> equipment or weather-related contingency:
+
+  * READY TO RESUME RVSM
+
+## ¶ Operational status of visuals aids or navigation aids
+
+> Information of visual aids given by ATC:
+
+  * (specify visual or non-visual aid) RUNWAY (number) (description of deficiency)
+  * (type) LIGHTING (unserviceability)
+  * TAXIWAY LIGHTING (description of deficiency)
+  * (type of visual approach slope indicator) RUNWAY (number) (description of deficiency)
+
+> Information of navigation aids status given by ATC:
+
+  * GBAS/SBAS/MLS/ILS CATEGORY (category) (serviceability state)
+  * VOR/NDB (serviceability state)
+
+## ¶ GNSS service status
+
+> Pilot and ATC phraseology to establish a status of GNSS:
+
+  * GNSS REPORTED UNRELIABLE (or GNSS MAY NOT BE AVAILABLE [DUE TO INTERFERENCE]) IN THE VICINITY OF (location) (radius) [BETWEEN (levels)]
+  * GNSS REPORTED UNRELIABLE (or GNSS MAY NOT BE AVAILABLE [DUE TO INTERFERENCE]) IN THE AREA OF (description) (or IN (name) FIR) [BETWEEN (levels)]
+  * BASIC GNSS (or SBAS, or GBAS) UNAVAILABLE FOR (specify operation) [FROM (time) TO (time) (or UNTIL FURTHER NOTICE)]
+  * BASIC GNSS UNAVAILABLE [DUE TO (reason, e.g. LOSS OF RAIM or RAIM ALERT)]
+  * GBAS (or SBAS) UNAVAILABLE
+  * CONFIRM GNSS NAVIGATION
+  * AFFIRM GNSS NAVIGATION
+
+## ¶ Capability of transponder equipment (SSR)
+
+> ATC instruction to ask aircraft transponder capability:
+
+  * ADVISE TRANSPONDER CAPABILITY
+
+> Pilot answer to previous instruction from ATC:
+
+  * TRANSPONDER (as shown in the flight plan)
+  * NEGATIVE TRANSPONDER
+
+# ¶ Ground crew with flight crew phraseology
+
+> Pay attention that this phraseology is only related to ground personnel
+> which assist pilots during the start phase of a flight. This phraseology
+> should not be used by regular ground and tower ATC. This phraseology is
+> given for example. It can be used for specific management of some very
+> specific events in IVAO.
+
+## ¶ Starting engine procedure
+
+> Ground personnel and Pilot exchange about starting engine procedure:
+
+  * [ARE YOU] READY TO START UP?
+  * STARTING NUMBER (engine number(s)).
+
+The ground crew should follow this exchange by either a reply on the intercom
+or a distinct visual signal to indicate that all is clear and that the start-
+up as indicated may proceed. Unambiguous identification of the parties
+concerned is essential in any communications between ground crew and pilots.
+
+## ¶ Pushback procedures
+
+> Ground personnel and pilot exchange during pushback procedure:
+
+  * ARE YOU READY FOR PUSHBACK?
+  * READY FOR PUSHBACK
+  * CONFIRM BRAKES RELEASED
+  * BRAKES RELEASED
+  * COMMENCING PUSHBACK
+  * PUSHBACK COMPLETED
+  * STOP PUSHBACK
+  * CONFIRM BRAKES SET
+  * BRAKES SET
+  * DISCONNECT
+  * DISCONNECTING STAND BY FOR VISUAL AT YOUR LEFT (or RIGHT)
+
+## ¶ De-icing operation
+
+> Ground personnel (iceman) and pilot exchange prior to de-icing:
+
+  * STANDING BY TO DE-ICE. CONFIRM BRAKES SET AND TREATMENT REQUIRED
+  * [AFFIRM] BRAKES SET, REQUEST (type of de/anti-icing treatment and areas to be treated)
+  * HOLD POSITION AND CONFIRM AIRCRAFT CONFIGURED
+  * [AFFIRM] AIRCRAFT CONFIGURED, READY FOR DE-ICING
+  * DE-ICING STARTS NOW
+
+> Ground personnel (iceman) and pilot exchange upon concluding de-icing
+> procedure:
+
+  * DE-ICING ON (areas treated) COMPLETE. ADVISE WHEN READY FOR INFORMATION
+  * TYPE OF FLUID (Type I or II or III or IV)
+  * HOLDOVER TIME STARTED AT (time)
+  * ANTI-ICING CODE (appropriate anti-icing code)
+  * FINAL STEP STARTED AT (time)
+  * POST DE-ICING CHECK COMPLETED
+  * PERSONNEL AND EQUIPMENT CLEAR OF AIRCRAFT
+
+> Note: Anti-icing code example: A de-icing/anti-icing procedure in which the
+> last step is the use of a mixture of 75% of a Type II fluid and 25% water,
+> commencing at 13:35 local time, is recorded as follows: TYPE II/75 13:35
+> (followed by complete name of anti-icing fluid)
+
+* See also
+* Reference
+* Author
+
+  * Phraseology,
+  * IFR flight Phraseology Example,
+  * VFR flight Phraseology Example
+
+  * ICAO Documentation 4444 - Air traffic management - 16th Edition 2016
+
+  * VID 150259 - Creation
+  * VID 496402 - Wiki.js integration
+
