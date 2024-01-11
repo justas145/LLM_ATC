@@ -1,0 +1,3572 @@
+[
+    {
+        "syntax": "(aircraft call sign) CLEARED TO.",
+        "when_used": "Clearances shall contain the following in the order listed:a) aircraft identification.b) clearance limit.c) route of flight.d) level(s) of flight for the entire route or part thereof and changes of levels if required.Note.- If the clearance for the levels covers only part of the route, it is important for the air traffic control unit to specify a point to which the part of the clearance regarding levels applies whenever necessary to ensure compliance with 3.6.5.2.2 a) of Annex 2.e) any necessary instructions or information on other matters such as SSR transponder operation, approach or departure manoeuvres, communications and the time of expiry of the clearance.Note.- The time of expiry of the clearance indicates the time after which the clearance will be automatically cancelled if the flight has not been started.",
+        "category": "Area Control Services, General",
+        "examples": "LGL123 cleared to Oslo via Staby upper Tango three eight zero, flight planned route, FL320.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) LOW ALTITUDE WARNING, CHECK YOUR ALTITUDE IMMEDIATELY, QNH IS (number) [(units)]. [THE MINIMUM FLIGHT ALTITUDE IS (altitude)].",
+        "when_used": "When an aircraft needs to be warned for low altitude.",
+        "category": "Emergency or unusual situation",
+        "examples": "LGL123 low altitude warning, check your altitude immediately, QNH is one zero zero zero the minimum flight altitude is one thousand five hundred feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) NOT RELEASED [UNTIL (time or significant point)].",
+        "when_used": "By approving unit when an aircraft can not be released until certain point or time.",
+        "category": "Coordination between ATS Units",
+        "examples": "LGL123 is not released until passing GINKA.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) RELEASED [AT (time)] [conditions/restrictions].",
+        "when_used": "By approving unit when an aircraft is released.",
+        "category": "Coordination between ATS Units",
+        "examples": "LGL123 released at time four two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) REQUEST APPROVED [(restriction if any)].",
+        "when_used": "Approval requestSaid by approving unit",
+        "category": "Coordination between ATS Units",
+        "examples": "LGL123 request approved.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) TERRAIN ALERT, (suggested pilot action, if possible).",
+        "when_used": "Terrain alert",
+        "category": "Emergency or unusual situation",
+        "examples": "LGL123 terrain alert turn left and climb immediately.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft call sign) UNABLE (alternative instructions).",
+        "when_used": "Approval request can not be approved as requested.Said by approving unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "LGL123 unable.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft type) (destination).",
+        "when_used": "Receiving unit reply (if flight plan details are available to which sending unit replies with SSR code, estimate for significant point and level).",
+        "category": "Coordination between ATS Units",
+        "examples": "Boeing seven three seven to Luxembourg.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(aircraft type) (position) (level) INFORMATION (ATIS identification) FOR LANDING.",
+        "when_used": "Inbound aircraft on initial contact when ATIS information is available.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "SEABD Cessna one seven two Eneby two thousand feet, information Delta, for landing.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "(aircraft type) REPORTED (description) ICING (or TURBULENCE) [IN CLOUD] (area) (time).",
+        "when_used": "To relay received information about meteorological conditions.",
+        "category": "General",
+        "examples": "Boeing seven three seven reported moderate icing in cloud during approach runway zero niner time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(condition) LINE UP (brief reiteration of the condition)",
+        "when_used": "This is a conditional clearance. Pilot Answers: (condition) LINING UP (brief reiteration of the condition). To which the Controller acknowledges: [THAT IS] CORRECT (or NEGATIVE) [I SAY AGAIN] ... (as appropriate).",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 behind landing airbus three ten line up behind.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(distance) FROM TOUCHDOWN ALTITUDE (or HEIGHT) SHOULD BE (numbers and units).",
+        "when_used": "Radar in approach control service.Surveillance radar approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 one two nautical miles from touchdown altitude should be one thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(distance) FROM TOUCHDOWN.",
+        "when_used": "Radar in approach control service.Surveillance radar approach.Position.",
+        "category": "Approach Control Services",
+        "examples": "LG123 one two nautical miles from touchdown.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(distance) FROM TOUCHDOWN.",
+        "when_used": "Radar in approach control service.PAR Approach.Related to position information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 one two nautical miles from touchdown.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(distance) FROM TOUCHDOWN. ALTITUDE (or HEIGHT) SHOULD BE (numbers and units).",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 one two  nautical miles from touchdown altitude should be 1000 feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(manoeuvre, SQUAWK or IDENT) OBSERVED. POSITION (position of aircraft). [(instructions)].",
+        "when_used": "Following a situation where loss of communication has been suspected and aircraft has been instructed to squawk ident.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 right turn observed. Position one two miles south of Skiro (SKI). Resume own navigation SKI.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(name of unit) CLEARS (aircraft call sign).",
+        "when_used": "Clearances shall contain the following in the order listed:a) aircraft identification.b) clearance limit.c) route of flight.d) level(s) of flight for the entire route or part thereof and changes of levels if required.Note.\u2014 If the clearance for the levels covers only part of the route, it is important for the air traffic control unit to specify a point to which the part of the clearance regarding levels applies whenever necessary to ensure compliance with 3.6.5.2.2 a) of Annex 2.e) any necessary instructions or information on other matters such as SSR transponder operation, approach or departure manoeuvres, communications and the time of expiry of the clearance.Note.\u2014 The time of expiry of the clearance indicates the time after which the clearance will be automatically cancelled if the flight has not been started.",
+        "category": "Area Control Services, General",
+        "examples": "Luxo Tower clears LGL123 to Malaga via Holly upper Tango two one five, flight planned route FL320.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(number) METRES LEFT (or RIGHT) OF TRACK.",
+        "when_used": "Radar in approach control service.Related to azimuth information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 one five meters left of track.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(position in circuit, e.g. DOWNWIND/FINAL).",
+        "when_used": "In the circuit",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "SBC, final",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "(route) NOT AVAILABLE DUE (reason) ALTERNATIVE[S] IS/ARE (routes) ADVISE.",
+        "when_used": "When part of route is not available",
+        "category": "Area Control Services",
+        "examples": "LGL123, Papa eight five one not available due to military activities. Alternatives are Mike seven seven seven or Papa eight one zero advise.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(specify visual or non-visual aid) RUNWAY (number) (description of deficiency).",
+        "when_used": "To inform pilots of operational status of visual and non-visual aids.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 transmissometer runway zero niner unreliable.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(standard departure name and number) DEPARTURE",
+        "when_used": "To assign SID",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 SKI three Bravo departure.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(traffic information) RUNWAY (number) CLEARED FOR TAKE-OFF.",
+        "when_used": "When reduced runway separation is used",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123, airbus three ten vacating runway runway zero niner, cleared for take off",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(traffic information) RUNWAY (number) CLEARED TO LAND.",
+        "when_used": "To clear an aircraft for landing when reduced runway separation is used.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL 123 airbus three ten vacating runway runway zero niner cleared to land.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(type of visual approach slope indicator) RUNWAY (number) (description of deficiency).",
+        "when_used": "To inform pilots of operational status of visual and non-visual aids.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 PAPI runway zero niner unserviceable.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(type) APPROACH NOT AVAILABLE DUE (reason) (alternative instructions).",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 ILS approach not available due equipment failure vectoring for final runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "(type) LIGHTING (unserviceability).",
+        "when_used": "To inform pilots of operational status of visual and non-visual aids.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 stop bar lighting unserviceable.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[(location)] RUNWAY SURFACE CONDITION RUNWAY (number) (condition).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Horn runway surface condition runway zero niner wet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[(location)] RUNWAY SURFACE CONDITION RUNWAY (number) NOT CURRENT.",
+        "when_used": "When previously received information on aerodrome conditions is not current.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Runway surface condition runway zero niner not current.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[ADDITIONAL] TRAFFIC (direction) BOUND (type of aircraft) (level) ESTIMATED (or OVER) (significant point) AT (time).",
+        "when_used": "To pass traffic information.To acknowledge pilot answers (one of the following three): LOOKING OUT, TRAFFIC IN SIGHT, or NEGATIVE CONTACT [reasons].",
+        "category": "General",
+        "examples": "LGL123 additional traffic north bound ATR four two at flight level two two zero over SKI at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[AFTER DEPARTURE] TURN RIGHT (or LEFT) HEADING (three digits) (or CONTINUE RUNWAY HEADING) (or TRACK EXTENDED CENTRE LINE) TO (level or significant point) [(other instructions as required)].",
+        "when_used": "To assign a route to follow after airborne.",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 after departure turn right heading one eight zero to FL80.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[aircraft location] REQUEST PUSHBACK.",
+        "when_used": "Note. - When local procedures so prescribe, authorization for pushback should be obtained from the control tower.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 stand one four, request pushback.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[aircraft location] REQUEST START UP",
+        "when_used": "To request permission to start engines.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 stand one four, request start up.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[aircraft location] REQUEST START UP, INFORMATION (ATIS identification).",
+        "when_used": "To request permission to start engines.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 stand one four, request start up, information Bravo.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[aircraft type] (position) (level) FOR LANDING.",
+        "when_used": "Entering the circuit",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "SEABC Piper Cherokee Eneby two thousand feet for landing.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[aircraft type] [wake turbulence category if \u201cheavy\u201d] [aircraft location] [flight rules] [TO (aerodrome of destination)] REQUEST TAXI [intentions].",
+        "when_used": "For departure",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 Boeing seven three seven stand one six, to ELLX request taxi.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[aircraft type] [wake turbulence category if \u201cheavy\u201d] REQUEST DETAILED TAXI INSTRUCTIONS.",
+        "when_used": "Where detailed taxi instructions are required",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "CLX315 Boeing seven four seven heavy request detailed taxi instructions.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "[ALL STATIONS] CPDLC FAILURE (instructions).",
+        "when_used": "To indicate failure of CPDLC",
+        "category": "CPDLC",
+        "examples": "All stations CPDLC FAILURE revert to voice.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[ALL STATIONS] RESUME NORMAL CPDLC OPERATIONS.",
+        "when_used": "To resume normal use of CPDLC.",
+        "category": "CPDLC",
+        "examples": "All stations resume normal CPDLC operations.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[ALL STATIONS] STOP SENDING CPDLC REQUESTS [UNTIL ADVISED] [(reason)].",
+        "when_used": "To instruct all stations or a specific flight to avoid sending CPDLC requests for a limited period of time.",
+        "category": "CPDLC",
+        "examples": "All stations stop sending CPDLC requests, due to CPDLC service failure.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[ARE YOU] READY TO START UP?",
+        "when_used": "Pilot answers: STARTING NUMBER (engine number(s)).Note 1.\u2014 The ground crew should follow this exchange by either a reply on the intercom or a distinct visual signal to indicate that all is clear and that the start-up as indicated may proceed.Note 2.\u2014 Unambiguous identification of the parties concerned is essential in any communications between ground crew and pilots.",
+        "category": "Ground Crew",
+        "examples": "LGL123 are you ready to start up?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[CAUTION] TAXI SLOWER [reason].",
+        "when_used": "Pilot trnasmission: SLOWING DOWN.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 caution taxi slower taxiway slippery.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[EXPECT] START UP AT (time or OWN DISCRETION).",
+        "when_used": "ATC reply when permission to start engines is requested by the pilot.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expect start up at time five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[IF] RADIO CONTACT LOST (instructions).",
+        "when_used": "When it is expected to lose communication with an aircraft (due to coverage for example).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 if radio contact lost continue heading and contact Horn control, one two three decimal seven five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[INBOUND RELEASE] (aircraft call sign) [SQUAWKING (SSR code)] (type) FROM (departure point) RELEASED AT (significant point, or time, or level) CLEARED TO AND ESTIMATING (clearance limit) (time) AT (level) [EXPECTED APPROACH TIME or NO DELAY EXPECTED] CONTACT AT (time).",
+        "when_used": "Inbound release",
+        "category": "Coordination between ATS Units",
+        "examples": "Inbound release LGL123 squawking 0325 Boeing seven three seven from Luxembourg released at BURKA cleared to and estimating GONLI at time one four zero niner FL210 contact at time one. four zero one.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[SQUAWKING (SSR code)] [ESTIMATED] (significant point) (time) AT (level).",
+        "when_used": "Sending unit short estimate if receiving unit has details of the flight.Note: In the event that flight plan details are not available the receiving unit shall reply NO DETAILS and sending unit shall pass full estimate.",
+        "category": "Coordination between ATS Units",
+        "examples": "Squawking 0325 estimated BURKI at time four zero FL290.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[STILL] (number) METRES (or FEET) TOO HIGH (or TOO LOW).",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 still two hundred feet too high.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "[SURFACE] WIND (number) DEGREES (speed) (units).",
+        "when_used": "Note.\u2014 Wind is always expressed by giving the mean direction and speed and any significant variations thereof.All numbers, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "Surface wind one two zero degrees, five knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "0",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "ZE-RO",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "1",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "WUN",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "2",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "TOO",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "3",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "TREE",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "4",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "FOW-er",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "5",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "FIFE",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "6",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "SIX",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "7",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "SEV-en",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "8",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "AIT",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "9",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "NIN-er",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ACKNOWLEDGE",
+        "when_used": "Means: \u201cLet me know that you have received and understood this message.\u201d",
+        "category": "General",
+        "examples": "LGL123 acknowledge by moving ailerons.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ACKNOWLEDGE BY FLASHING LANDING LIGHTS.",
+        "when_used": "Acknowledgement by visual means",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 acknowledge by flashing landing lights.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ACKNOWLEDGE BY MOVING AILERONS (or RUDDER).",
+        "when_used": "Acknowledgement by visual means",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 acknowledge by moving ailerons.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ACKNOWLEDGE BY ROCKING WINGS.",
+        "when_used": "Acknowledgement by visual means",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 acknowledge by rocking wings.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADJUST RATE OF DESCENT.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 adjust rate of descent.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADS-B OUT OF SERVICE (appropriate information as necessary).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 ADS-B out of service.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADS-C (or ADS-CONTRACT) OUT OF SERVICE (appropriate information as necessary).",
+        "when_used": "ADS-C Degradation",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 ADS-C out of service.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADVISE ABLE TO ACCEPT VISUAL APPROACH RUNWAY (number).",
+        "when_used": "To request if a pilot is able to accept a visual approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123, advise able to accept visual approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADVISE ADS-B CAPABILITY.",
+        "when_used": "Secondary surveillance radar (SSR) and ADS-B phraseologiesPilot answers:ADS-B TRANSMITTER (data link). orADS-B RECEIVER (data link). orNEGATIVE ADS-B.To request the capability of the ADS-B equipment",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 advise ADS-B capability.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADVISE IF ABLE TO CROSS (significant point) AT (time or level)",
+        "when_used": "Separation instructions.",
+        "category": "Area Control Services",
+        "examples": "LGL123 advise if able to cross ANDIE at FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADVISE IF ABLE TO PROCEED PARALLEL OFFSET",
+        "when_used": "Instructions associated with flying a track (offset), parallel to the cleared route.",
+        "category": "Area Control Services",
+        "examples": "LGL123 advise if able to proceed parallel offset.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ADVISE TRANSPONDER CAPABILITY.",
+        "when_used": "Secondary surveillance radar (SSR) and ADS-B phraseologiesPilot answers: TRANSPONDER (as shown in the flight plan) or NEGATIVE TRANSPONDER.",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 advise transponder capability.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AFFIRM",
+        "when_used": "Means :yes",
+        "category": "General",
+        "examples": "Affirm, LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AFTER DEPARTURE TURN RIGHT (or LEFT, or CLIMB) (instructions as appropriate).",
+        "when_used": "Departure instructions",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 after departure climb towards ESTER to five thousand feet before turning right for SKIRO.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AFTER PASSING (level) (instructions)",
+        "when_used": "Turn or climb instructions after take off.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 after passing five thousand feet turn right direct SKI.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AFTER PASSING (significant point).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123, after passing BURMA, climb to FL120.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AFTER REACHING (or PASSING) (level or significant point) (instructions).",
+        "when_used": "To issue instructions to follow after reaching or passing a level after departure.",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 after reaching altitude five thousand feet turn right to SKI.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AGREED TO (alteration of clearance) OF (aircraft call sign).",
+        "when_used": "Change of clearance. Said by approving unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "Agreed to proceeding via FINDO for LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AIR-TAXI TO (or VIA) (location or routing as appropriate) [CAUTION (dust, blowing snow, loose debris, taxiing light aircraft, personnel, etc.)].",
+        "when_used": "Instructions after landing. For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one air-taxi to runway zero one to apron North caution taxiing light aircraft on runway.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AIR-TAXI TO (or VIA) (location or routing as appropriate) [CAUTION (dust, blowing snow, loose debris, taxiing light aircraft, personnel, etc.)].",
+        "when_used": "For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one air-taxi to apron North",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AIR-TAXI TO HELICOPTER STAND (or) HELICOPTER PARKING POSITION (area).",
+        "when_used": "Instructions after landing. For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one air-taxi to helicopter parking position apron North.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AIR-TAXI VIA (direct, as requested, or specified route) TO (location, heliport, operating or movement area, active or inactive runway). AVOID (aircraft or vehicles or personnel).",
+        "when_used": "Instructions after landing. For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one air taxi via runway zero one to apron North avoid vehicles at apron North.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AIR-TAXI VIA (direct, as requested, or specified route) TO (location, heliport, operating or movement area, active or inactive runway). AVOID (aircraft or vehicles or personnel).",
+        "when_used": "For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one air-taxi via runway zero one to apron North caution taxiing light aircraft.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROACH COMPLETED [CONTACT (unit)].",
+        "when_used": "Radar in approach control service. Related to completion of approach in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 approach completed contact Birna tower on one two zero decimal zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROACH COMPLETED [CONTACT (unit)].",
+        "when_used": "Surveillance radar approach. Radar in approach control service. To inform of completion of approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 approach completed contact Birna tower on one two zero decimal zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROACH INSTRUCTIONS WILL BE TERMINATED AT (distance) FROM TOUCHDOWN.",
+        "when_used": "Surveillance radar approach. Radar in approach control service. Explains provision of surveillance radar approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 approach instructions will be terminated at eight NM from touchdown.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROACHING GLIDE PATH.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 approaching glide path.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROVAL REQUEST (aircraft call sign) ESTIMATED DEPARTURE FROM (significant point) AT (time).",
+        "when_used": "Approval request.Said by requesting unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "Approval request LGL123 estimated departure from DELVI at time three one.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "APPROVED",
+        "when_used": "Means: \u201cPermission for proposed action granted.\u201d",
+        "category": "General",
+        "examples": "LGL123 start up approved.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ARE YOU FAMILIAR WITH (name) APPROACH PROCEDURE.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 are you familiar with SKIRO three Bravo arrival approach procedure.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ARE YOU GOING AROUND?",
+        "when_used": "Pilot answers: GOING AROUNDRadar in approach control service.Related to go around procedures in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 are you going around?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ARE YOU READY [FOR [IMMEDIATE] DEPARTURE]?",
+        "when_used": "Pilot answers: READY",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 are you ready for departure?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ARE YOU READY FOR PUSHBACK?",
+        "when_used": "Pilot answers: READY FOR PUSHBACK",
+        "category": "Ground Crew",
+        "examples": "LGL123 are you ready for pushback?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AT (number) METRES PER SECOND (or FEET PER MINUTE) [OR GREATER (or OR LESS)].",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 climb at two thousand feet per minute or less.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "AT (or OVER) (time or place) [or WHEN] [PASSING/LEAVING/REACHING (level)] CONTACT (unit call sign) (frequency).",
+        "when_used": "Transfer of control and/or frequency change.",
+        "category": "General",
+        "examples": "LGL123 when passing FL250 contact Tampere control one two four decimal one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ATTENTION ALL AIRCRAFT IN THE VICINITY OF [or AT] (significant point or location) EMERGENCY DESCENT IN PROGRESS FROM (level) (followed as necessary by specific instructions, clearances, traffic information, etc.).",
+        "when_used": "No data",
+        "category": "Emergency or unusual situation",
+        "examples": "Attention all aircraft in the vicinity of SKI emergency descent in progress from FL330 to below FL90. It\u2019s a Boeing seven three seven just passed SKI northbound.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BACKTRACK APPROVED.",
+        "when_used": "To approve backtrack.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 backtrack approved.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BACKTRACK RUNWAY (number).",
+        "when_used": "To issue backtrack instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 backtrack runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BASIC GNSS (or SBAS, or GBAS) UNAVAILABLE FOR (specify operation) [FROM (time) TO (time) (or UNTIL FURTHER NOTICE)].",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 basic GNSS  unavailable for distance measurement until further notice.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BASIC GNSS UNAVAILABLE [DUE TO (reason, e.g. LOSS OF RAIM or RAIM ALERT)].",
+        "when_used": "No data",
+        "category": "Aircraft, General",
+        "examples": "LGL123 Basic GNSS  unavailable due to LOSS of RAIM.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "BRAKING ACTION [(location)] (measuring equipment used), RUNWAY (number), TEMPERATURE [MINUS] (number), WAS (reading) AT (time).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Braking action Horn, friction tester, runway zero niner, temperature minus one, was zero point two five at time one zero one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BRAKING ACTION REPORTED BY (aircraft type) AT (time) GOOD (or MEDIUM, or POOR).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Braking action reported by Airbus three twenty at time one zero two five medium.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BREAK",
+        "when_used": "Means: \u201cI hereby indicate the separation between portions of the message.\u201d(To be used where there is no cleardistinction between the text and other portions of the message.)",
+        "category": "General",
+        "examples": "BREAK",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "BREAK BREAK",
+        "when_used": "Means: \u201cI hereby indicate the separation between messages transmitted to different aircraft in a very busy environment.\u201d",
+        "category": "General",
+        "examples": "LGL123 maintain FL310 break break AFR367 climb to FL350.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CANCEL",
+        "when_used": "Means:  \u201cAnnul the previously transmitted clearance.\u201d",
+        "category": "General",
+        "examples": "LGL123 hold position, cancel take-off, I say again, cancel take-off, vehicles blocking the runway.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CANCEL OFFSET (instructions to rejoin cleared flight route or other information).",
+        "when_used": "Instructions associated with flying a track (offset), parallel to the cleared route.",
+        "category": "Area Control Services",
+        "examples": "LGL123 cancel offset return back to upper Mike seven three zero via STEVE.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION (specify reasons) RIGHT (or LEFT), (or BOTH SIDES) OF RUNWAY [number].",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Caution grass cutting right of runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION CONSTRUCTION WORK (location).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Caution construction work taxiway Yankee",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION JET BLAST",
+        "when_used": "Jet blast on apron or taxiway",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC caution jet blast.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION SLIPSTREAM",
+        "when_used": "Propeller-driven aircraft slipstream",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC caution slipstream.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION WAKE TURBULENCE [FROM ARRIVING (or DEPARTING) (type of aircraft)] [additional information as required].",
+        "when_used": "Wake turbulence",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC caution wake turbulence from arriving Boeing seven four seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAUTION WORK IN PROGRESS (or OBSTRUCTION) (position and any necessary advice).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Caution work in progress at entry to apron.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CAVOK.",
+        "when_used": "CAVOK Means no restriction on vertical visibility, no clouds below 5000ft or below MSA whichever is higher and no CB.Note.- CAVOK pronounced CAV-O-KAY.",
+        "category": "General",
+        "examples": "CAVOK.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHANGE YOUR CALL SIGN TO (new call sign) [UNTIL FURTHER ADVISED].",
+        "when_used": "To instruct an aircraft to change its type of call sign",
+        "category": "General",
+        "examples": "LGL123 change your call sign to LGL123Alpha until further advised.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Channels in VHF 1/2",
+        "when_used": "Where all VHF voice communications channels are separated by 25 kHz or more and the use of six digits is not substantiated by the operational requirement determined by the appropriate authorities, the first five digits of the numerical designator should be used, except in the case of both the fifth and sixth digits being zeros, in which case only the first four digits should be used. In all other cases all six digits of the numerical designator should be used to identify the transmitting channel in VHF radiotelephony communications, except in the case of both the fifth and sixth digits being zeros, in which case only the first four digits should be used.",
+        "category": "General",
+        "examples": "118.005 - ONE ONE EIGHT DECIMAL ZERO ZERO FIVE",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Channels in VHF 2/2",
+        "when_used": "Where all VHF voice communications channels are separated by 25 kHz or more and the use of six digits as in  is not substantiated by the operational requirement determined by the appropriate authorities, the first five digits of the numerical designator should be used, except in the case of both the fifth and sixth digits being zeros, in which case only the first four digits should be used In all other cases all six digits of the numerical designator should be used to identify the transmitting channel in VHF radiotelephony communications, except in the case of both the fifth and sixth digits being zeros, in which case only the first four digits should be used.",
+        "category": "General",
+        "examples": "118.000 ONE ONE EIGHT DECIMAL ZERO",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHECK",
+        "when_used": "Means: \u201cExamine a system or procedure.\u201d(Not to be used in any other context. No answer is normally expected.)",
+        "category": "General",
+        "examples": "New York radio Swissair one one zero request SELCAL check.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHECK ALTIMETER SETTING AND CONFIRM (level).",
+        "when_used": "To request pressure setting check and confirmation of level",
+        "category": "SSR and ADS-B Phraseologies, Emergency or unusual situation",
+        "examples": "LGL123 check altimeter setting and confirm level one six zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHECK DECISION ALTITUDE (or HEIGHT).",
+        "when_used": "Radar in approach control serviceRelated to checks in PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 check decision altitude.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHECK GEAR DOWN [AND LOCKED].",
+        "when_used": "Radar in approach control serviceSurveillance radar approachChecks",
+        "category": "Approach Control Services",
+        "examples": "LGL123 check gear down and locked.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CHECK GEAR DOWN AND LOCKED.",
+        "when_used": "Radar in approach control serviceRelated to checks in PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 check gear down and locked.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CIRCLE THE AERODROME",
+        "when_used": "Delaying aircraft",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC circle the aerodrome.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEAR OF CONFLICT (assigned clearance) RESUMED",
+        "when_used": "After a flight crew starts to deviate from any ATC clearance or instruction to comply with an ACAS resolution advisory (RA). Controller answers ROGER (or alternative instructions).",
+        "category": "Emergency or unusual situation, Aircraft, General",
+        "examples": "LGL123 clear of conflict, FL330 resumed.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "CLEAR OF CONFLICT, RETURNING TO (assigned clearance).",
+        "when_used": "After a flight crew starts to deviate from any ATC clearance or instruction to comply with an ACAS resolution advisory (RA). Controller answers ROGER (or alternative instructions).",
+        "category": "Emergency or unusual situation, Aircraft, General",
+        "examples": "LGL123 clear of conflict, returning to FL330.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "CLEAR OF TRAFFIC [appropriate instructions].",
+        "when_used": "When passing unknown traffic",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 clear of traffic resume own navigation.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED",
+        "when_used": "Means: \u201cAuthorised to proceed under the conditions specified.\u201d",
+        "category": "General",
+        "examples": "LGL123 cleared to Oslo via Staby upper Tango three eight zero, flight planned route, FL320.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (designation) DEPARTURE.",
+        "when_used": "Note: The route of flight shall be detailed in each clearance when deemed necessary. The phrase \u201ccleared via flight planned route\u201d may be used to describe any route or portion thereof, provided the route or portion thereof is identical to that filed in the flight plan and sufficient routing details are given to definitely establish the aircraft on its route. The phrases \u201ccleared via (designation) departure\u201d or \u201ccleared via (designation) arrival\u201d may be used when standard departure or arrival routes have been established by the appropriate ATS authority and published in Aeronautical Information Publications (AIPs).The phrase \u201ccleared via flight planned route\u201d shall not be used when granting a re-clearance.",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 cleared via upper Mike seven one zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (MLS/RNAV plain-language designator).",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared MLS approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (or PROCEED)  (details of route to be followed)",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123, PROCEED DIK",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [(specified) RADIAL, COURSE, INBOUND TRACK (three digits) DEGREES] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary).",
+        "when_used": "When a detailed holding clearance is required",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 proceed to SKI, maintain FL100, hold two zero zero radial, course inbound track zero two zero degrees left hand pattern, outbound time three minutes expect further clearance at time five one.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (or PROCEED) TO (significant point, name of facility or fix) [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] AS PUBLISHED EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time).",
+        "when_used": "Published holding procedure over a facility or fix.",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 proceed to SKI, maintain FL100, hold north as published, expect further clearance at time five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (type of approach) APPROACH [RUNWAY (number)].",
+        "when_used": "To issue approach clearance.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared VOR DME approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED (type of approach) RUNWAY (number) FOLLOWED BY CIRCLING TO RUNWAY (number).",
+        "when_used": "To issue approach clearance.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared VOR DME approach runway zero niner followed by circling to runway two seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED APPROACH [RUNWAY (number)].",
+        "when_used": "To issue approach clearance.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED FOR (type of approach) APPROACH RUNWAY (number) LEFT (or RIGHT).",
+        "when_used": "Manoeuvre during independent and dependent parallel approaches.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared for ILS approach runway zero niner left.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED FOR (type of approach) APPROACH RUNWAY (number).",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared for ILS approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED FOR TAKE-OFF [FROM (location)] (present position, taxiway, final approach and take-off area, runway and number).",
+        "when_used": "For helicopter operations",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one cleared for take-off from intersection Bravo.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED FROM (location) TO (location)., followed as necessary by: 1) DIRECT. 2) VIA (route and/or significant points). 3) VIA FLIGHT PLANNED ROUTE. 4) VIA (distance) DME ARC (direction) OF (name of DME station).",
+        "when_used": "Note: The route of flight shall be detailed in each clearance when deemed necessary. The phrase \u201ccleared via flight planned route\u201d may be used to describe any route or portion thereof, provided the route or portion thereof is identical to that filed in the flight plan and sufficient routing details are given to definitely establish the aircraft on its route. The phrases \u201ccleared via (designation) departure\u201d or \u201ccleared via (designation) arrival\u201d may be used when standard departure or arrival routes have been established by the appropriate ATS authority and published in Aeronautical Information Publications (AIPs). The phrase \u201ccleared via flight planned route\u201d shall not be used when granting a re-clearance.",
+        "category": "Area Control Services",
+        "examples": "LGL123 cleared to Copenhagen, direct BASUM.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED LOW APPROACH [RUNWAY (number)] [(altitude restriction if required) (go around instructions)].",
+        "when_used": "Done to make an approach along, or parallel to a runway, descending to an agreed minimum level.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC cleared low approach runway zero niner. After overshot turn left to OW two thousand one hundred feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED LOW PASS [RUNWAY (number)] [(altitude restriction if required) (go around instructions)].",
+        "when_used": "To fly past the control tower or other observation point for the purpose of visual inspection by persons on the ground.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC cleared low pass to check the wheel.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED STRAIGHT-IN [(type of approach)] APPROACH [RUNWAY (number)].",
+        "when_used": "To issue straight-in approach clearance.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared straight-in ILS approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED TO (clearance limit)  (designation).",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared to Oscar Whisky via PELLE one Echo arrival.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD [(direction)] [RIGHT (or LEFT) HAND PATTERN] [OUTBOUND TIME (number) MINUTES] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions,if necessary).",
+        "when_used": "When detailed holding clearance is required.",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 cleared to the zero two zero radial of the HRN VOR at one five DME fix, descend to FL90, hold north, right hand pattern outbound time three minutes expect further clearance at time five two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED TO THE (three digits) RADIAL OF THE (name) VOR AT (distance) DME FIX [MAINTAIN (or CLIMB or DESCEND TO) (level)] HOLD BETWEEN (distance) AND (distance) DME [RIGHT (or LEFT) HAND PATTERN] EXPECT APPROACH CLEARANCE (or FURTHER CLEARANCE) AT (time) (additional instructions, if necessary).",
+        "when_used": "When detailed holding clearance is required.",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 cleared to the two six niner radial of the HRN VOR at five DME fix descend to FL60, hold between niner DME right hand pattern, expect further clearance at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED TOUCH AND GO",
+        "when_used": "To clear an aircraft for touch and go.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC cleared touch and go.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED VISUAL APPROACH RUNWAY (number), MAINTAIN OWN SEPARATION FROM PRECEDING (aircraft type and wake turbulence category as appropriate) [CAUTION WAKE TURBULENCE].",
+        "when_used": "In case of successive visual approaches when the pilot of a succeeding aircraft has reported having the preceding aircraft in sight",
+        "category": "Approach Control Services",
+        "examples": "LGL123, cleared visual approach runway zero niner, maintain own separation from preceding Airbus three forty heavy, caution wake turbulence.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLEARED VISUAL APPROACH RUNWAY (number).",
+        "when_used": "To issue a clearance for a visual approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 cleared visual approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB [or DESCEND] TO AND MAINTAIN BLOCK (level) TO (level).",
+        "when_used": "Instruction that a climb (or descent) to a level within the vertical range defined is to commence.",
+        "category": "General",
+        "examples": "SVF123 descend to and maintain block FL270 to FL300.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB [or DESCEND] TO REACH (level) AT (or BY) (time or significant point)",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 descend to reach FL210 at ELLEN",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB STRAIGHT AHEAD (instructions).",
+        "when_used": "Turn or climb instructions after take off.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 climb straight ahead to three thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB TO (altitude) IMMEDIATELY TO AVOID TRAFFIC [DEVIATING FROM ADJACENT APPROACH] (further instructions).",
+        "when_used": "Radar in approach control serviceFor avoidance action below 120 m (400 ft) above the runway threshold elevation where parallel approach obstacle assessment surfaces (PAOAS) criteria arebeing applied",
+        "category": "Approach Control Services",
+        "examples": "LGL123 climb to five thousand feet immediately to avoid traffic deviating from adjacent approach, when reaching turn right to sierra kilo india.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB TO (level)",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 climb to FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLIMB VIA SID TO (level), CANCEL LEVEL RESTRICTION(S); or CANCEL LEVEL RESTRICTION(S) AT ( point(s) ).",
+        "when_used": "Clearance to cancel ( or specific ) level restriction(s) of the vertical profile of a SID during climb.",
+        "category": "General",
+        "examples": "RYR7202, CLIMB VIA ASMOX 4T DEPARTURE TO FL140, CANCEL LEVEL RESTRICTIONS",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLOSING [SLOWLY (or QUICKLY)] [FROM THE LEFT (or FROM THE RIGHT)].",
+        "when_used": "Radar in approach control service.Related to azimuth information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 closing slowly from right.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLOSING FROM LEFT (or RIGHT) [REPORT ESTABLISHED].",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 closing from right report established.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CLOUD (amount, [(type)] and height of base) (units) (or SKY CLEAR).",
+        "when_used": "Sky clear means no clouds and no restriction on vertical visibility.",
+        "category": "General",
+        "examples": "Cloud scattered five thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "COMING BACK [SLOWLY (or QUICKLY)] TO THE GLIDE PATH.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 coming back quickly to the glide path.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "COMMENCE APPROACH AT (time).",
+        "when_used": "To issue approach clearance at a specific time.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 commence approach at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "COMMENCE DESCENT NOW [AT (number) METRES PER SECOND OR (number) FEET PER MINUTE (or ESTABLISH A (number) DEGREE GLIDE PATH)].",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 commence descent now at one thousand feet per minute.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "COMMENCE DESCENT NOW [TO MAINTAIN A (number) DEGREE GLIDE PATH].",
+        "when_used": "Radar in approach control service.Surveillance radar approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 commence descent now.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "COMMENCING PUSHBACK.",
+        "when_used": "To commence pushback.",
+        "category": "Ground Crew",
+        "examples": "LGL123 commencing pushback.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM",
+        "when_used": "Means: \u201cI request verification of: (clearance, instruction, action, information).\u201d",
+        "category": "General",
+        "examples": "LGL123 confirm squawk three five four six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM (level).",
+        "when_used": "To request check level",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 confirm FL280",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM ABLE TO RESUME RVSM",
+        "when_used": "To request confirmation that an aircraft has regained RVSM approved status or a pilot is ready to resume RVSM operations Pilot answers READY TO RESUME RVSM or NOT READY TO RESUME RVSM",
+        "category": "Area Control Services",
+        "examples": "LGL123 confirm able to resume RVSM.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM BRAKES RELEASED.",
+        "when_used": "Pilot answers: BRAKES RELEASED.",
+        "category": "Ground Crew",
+        "examples": "LGL123 confirm breaks released.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM BRAKES SET",
+        "when_used": "Pilot answers: BRAKES SET",
+        "category": "Ground Crew",
+        "examples": "LGL123 confirm breaks set.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM EIGHT POINT THREE THREE",
+        "when_used": "To request confirmation of8.33 kHz capability.The pilot answers: AFFIRM [or NEGATIVE] EIGHT POINT THREE THREE. Note: the term \u201cpoint\u201d is used only in the context of naming the 8.33 kHz channel spacing concept and does not constitute any change to existing ICAO provisions or phraseology regarding the use of the term \u201cdecimal\u201d.",
+        "category": "General",
+        "examples": "LGL 123 confirm eight point three three.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM EIGHT POINT THREE THREE EXEMPTED",
+        "when_used": "To request status in respect of 8.33 kHz exemptionThe pilot answers: AFFIRM [or NEGATIVE] EIGHT POINT THREE THREE EXEMPTED",
+        "category": "General",
+        "examples": "MAF123 confirm eight point three three exempted.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM RVSM APPROVED",
+        "when_used": "To ascertain RVSM approval status of an aircraftPilot answers:  AFFIRM [or NEGATIVE] RVSMIn the case of Negative RVSM, (supplementary information, e.g. State aircraft)] could be given",
+        "category": "Area Control Services",
+        "examples": "LGL123 confirm RVSM approved.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM SQUAWK (code).",
+        "when_used": "To request the pilot to confirm the code selected on the aircraft's transponder.Pilot answers: SQUAWKING (code).",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 confirm squawk three five four six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONFIRM UHF",
+        "when_used": "To request UHF capability. The pilot answers: AFFIRM [or NEGATIVE] UHF",
+        "category": "General",
+        "examples": "MAF123 confirm UHF.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTACT",
+        "when_used": "Means: \u201cEstablish communications with...\u201d",
+        "category": "General",
+        "examples": "LGL123 contact Tampere control one two four decimal one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTACT (unit call sign) (frequency) [NOW].",
+        "when_used": "Transfer of control and or frequency change.The word NOW may be added to give emphasis.",
+        "category": "General",
+        "examples": "LGL123 contact Tampere control one two four decimal one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTACT GROUND (frequency).",
+        "when_used": "Communications after landing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 contact ground one two one decimal six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE APPROACH [PREPARE FOR POSSIBLE GO AROUND].",
+        "when_used": "No data",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 continue approach prepare for possible go around.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE CLIMB (or DESCENT) TO (level).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 continue climb to FL310",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE HEADING (three digits).",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 continue heading zero five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE PRESENT HEADING",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 continue present heading",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE RUNWAY HEADING (instructions).",
+        "when_used": "Turn or climb instructions after take off. Heading to be followed.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 continue runway heading until passing five thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CONTINUE VISUALLY OR GO AROUND [missed approach instructions].",
+        "when_used": "Radar in approach control serviceRelated to go around procedures in PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 continue visually or go around, climb three thousand feet on runway heading.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CORRECT",
+        "when_used": "Means: \u201cTrue\u201d or \u201cAccurate\u201d",
+        "category": "General",
+        "examples": "LGL 123 correct.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CORRECTION",
+        "when_used": "Means: \u201cAn error has been made in this transmission (or message indicated). The correct version is...\u201d",
+        "category": "General",
+        "examples": "LGL 123 correction, proceed direct to MIKI.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CPDLC MESSAGE FAILURE (appropriate clearance, instruction, information or request).",
+        "when_used": "Failure of a single CPDLC message.",
+        "category": "CPDLC",
+        "examples": "LGL123 CPDLC message failure. Climb to FL260.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CROSS (distance) MILES, (GNSS or DME) [(direction)] OF (name of DME station) OR (distance) [(direction)] OF (significant point) AT (or ABOVE or BELOW) (level).",
+        "when_used": "No data",
+        "category": "Area Control Services",
+        "examples": "LGL123 cross two five DME north of Viskan at FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CROSS (significant point) AT (or ABOVE, or BELOW) (level).",
+        "when_used": "No data",
+        "category": "Area Control Services",
+        "examples": "LGL123 cross SAMAK at FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CROSS (significant point) AT (time) [OR LATER (or OR BEFORE)].",
+        "when_used": "Separation instructions.",
+        "category": "Area Control Services",
+        "examples": "LGL123 cross ANDIE at time four five or later.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CROSS (significant point) AT (time) OR LATER (or BEFORE) AT (level).",
+        "when_used": "No data",
+        "category": "Area Control Services",
+        "examples": "LGL123 cross PELLE at time five one or later at FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CROSS RUNWAY (number) [REPORT VACATED]",
+        "when_used": "To instruct an aircraft to cross a runway.Pilot Answers: RUNWAY VACATED. Note.\u2014 The pilot will, when requested, report \u201cRUNWAY VACATED\u201d when the entire aircraft is beyond the relevant runway-holding position.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 cross runway zero niner report vacated.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "CRUISE CLIMB BETWEEN (levels) (or ABOVE (level)).",
+        "when_used": "No data",
+        "category": "Area Control Services",
+        "examples": "LGL123 cruise climb between FL310 and flight level FL330.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Decimal",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "DAY-SEE-MAL",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DELAY NOT DETERMINED (reasons).",
+        "when_used": "No data",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 delay not determined due to low traffic.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DESCEND TO (level)",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 descend to FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DESCEND VIA STAR TO (level), CANCEL LEVEL RESTRICTION(S); or CANCEL LEVEL RESTRICTION(S) AT ( point(s) ).",
+        "when_used": "Clearance to cancel (or specific) level restrictions of a STAR during descent.",
+        "category": "General",
+        "examples": "SAS12B, DESCEND VIA OLNO 6M ARRIVAL TO 4000 FEET, CANCEL LEVEL RESTRICTION AT DIK",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DISCONNECT",
+        "when_used": "Ground crew answers: DISCONNECTING STAND BY FOR VISUAL AT YOUR LEFT (or RIGHT).Note.\u2014 This exchange is followed by a visual signal to the pilot to indicate that disconnect is completed and all is clear for taxiing.",
+        "category": "Ground Crew",
+        "examples": "LGL123 disconnect.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "DISREGARD",
+        "when_used": "Means: \u201cIgnore.\u201d",
+        "category": "General",
+        "examples": "LGL123 disregard CPDLC climb clearance message, break maintain FL 260.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DISREGARD CPDLC (message type) MESSAGE, BREAK (correct clearance, instruction, information or request).",
+        "when_used": "To correct CPDLC clearances, instructions, information or requests",
+        "category": "CPDLC",
+        "examples": "LGL123 disregard CPDLC climb clearance message, break maintain FL260.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DO NOT ACKNOWLEDGE FURTHER TRANSMISSIONS",
+        "when_used": "Radar in approach control serviceRelated to communications in PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 do not acknowledge further transmissions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DO NOT EXCEED (number) KILOMETRES PER HOUR (or KNOTS).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 do not exceed three zero zero knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DO NOT EXCEED MACH (number).",
+        "when_used": "Separation instructions.",
+        "category": "Area Control Services",
+        "examples": "LGL123 do not exceed mach decimal zero eight zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DO YOU WANT VECTORS?",
+        "when_used": "To suggest vectoring for avoiding action.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 do you want vectors?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "DUE EIGHT POINT THREE THREE REQUIREMENT",
+        "when_used": "To indicate that a certain clearance is given becauseotherwise a non-equipped and/or non-exempted aircraft would enter airspace of mandatory carriage",
+        "category": "General",
+        "examples": "LGL123 due eight point three three descend to FL270, be level by BURKA.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ELEVATION ELEMENT UNSERVICEABLE (to be followed by appropriate instructions).",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 elevation element unserviceable, continue MLS approach using azimuth only.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EMERGENCY DESCENT (intentions).",
+        "when_used": "No data",
+        "category": "Emergency or unusual situation, Aircraft",
+        "examples": "LGL123 emergency descent to below FL90.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "ENTER CONTROLLED AIRSPACE (or CONTROL ZONE) [VIA (significant point or route)] AT (level) [AT (time)].",
+        "when_used": "To clear an aircraft for entering controlled airspace or control zone.",
+        "category": "Area Control Services, General",
+        "examples": "DCAMN enter controlled airspace via TERUN at FL150 at time four seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ESTIMATE (significant point) ON (aircraft call sign).",
+        "when_used": "Short estimate - sending unit",
+        "category": "Coordination between ATS Units",
+        "examples": "Estimate BURKI on LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ESTIMATE [direction of flight] (aircraft call sign) [SQUAWKING (SSR code)] (type) ESTIMATED (significant point) (time) (level) (or DESCENDING FROM (level) TO (level)) [SPEED (filed TAS)] (route) [REMARKS].",
+        "when_used": "Full estimate - sending unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "Estimate eastbound LGL123 squawking 0325, Boeing seven three seven estimated BURKI time four zero FL290 speed 430 knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ESTIMATE UNMANNED FREE BALLOON(S) (identification and classification) ESTIMATED OVER (place) AT (time) REPORTED FLIGHT LEVEL(S) (figure or figures) [or FLIGHT LEVEL UNKNOWN] MOVING (direction) ESTIMATED GROUND SPEED (figure) (other pertinent information, if any).",
+        "when_used": "When coordination regarding unmanned free balloons is effected",
+        "category": "Coordination between ATS Units",
+        "examples": "Estimate unmanned free balloon medium estimated over BURKI at time four zero reported between FL160 and FL260 moving northbound estimated ground speed 65 knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECT (number) MINUTES DELAY DUE (reason).",
+        "when_used": "Note. - When local procedures so prescribe, authorization for pushback should be obtained from the control tower.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expect one zero minutes delay due snow-clearing in progress.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECT CLEARANCE (or type of clearance) AT (time).",
+        "when_used": "If clearance cannot be issued immediately upon request",
+        "category": "Area Control Services",
+        "examples": "LGL123 expect clearance at time two zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECT CLIMB (or DESCENT) AT (time or significant point).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 expect climb at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECT DEPARTURE (time) START UP AT OWN DISCRETION.",
+        "when_used": "ATC reply when permission to start engines is requested by the pilot.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expect departure time four five, start up at own discretion.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECT VECTOR ACROSS (localiser course or radio aid) (reason).",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 expect vector across localiser course for delay action.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPECTED APPROACH TIME (time).",
+        "when_used": "No data",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 expected approach time four zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE CLEARANCE (aircraft call sign) [ESTIMATED] OVER (place) AT (time) REQUESTS (level or route, etc.).",
+        "when_used": "Expedition of clearance",
+        "category": "Coordination between ATS Units",
+        "examples": "Expedite clearance LGL123 over Brussels at time three seven requesting FL280.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE CLEARANCE (aircraft call sign) EXPECTED DEPARTURE FROM (place) AT (time).",
+        "when_used": "Expedition of clearance",
+        "category": "Coordination between ATS Units",
+        "examples": "Expedite clearance LGL123 expected departure form Luxembourg at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE CLIMB (or DESCENT) [UNTIL PASSING (level)].",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 expedite climb until passing FL240.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE CROSSING RUNWAY (number) TRAFFIC (aircraft type) (distance) KILOMETRES (or MILES) FINAL [REPORT VACATED]",
+        "when_used": "To instruct an aircraft to cross a runway.Pilot Answers: RUNWAY VACATED. Note.\u2014 The pilot will, when requested, report \u201cRUNWAY VACATED\u201d when the entire aircraft is beyond the relevant runway-holding position.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expedite crossing runway zero niner, traffic Airbus three one eight five miles final.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE TAXI [(reason)].",
+        "when_used": "Pilot transmission: EXPEDITING.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expedite taxi aircraft behind.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "EXPEDITE VACATING",
+        "when_used": "Communication after landing, runway vacating.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 expedite vacating.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "FLY HEADING (three digits), WHEN ABLE PROCEED DIRECT (name) (significant point).",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 fly heading zero six zero, when able proceed direct SAMAK.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "FLY HEADING (three digits).",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 fly heading two zero zero",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "FOLLOW (description of other aircraft or vehicle).",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 follow out taxiing light aircraft.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "FOR DEPARTURE SQUAWK (code).",
+        "when_used": "To instruct the setting of the transponder",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 for departure squawk three six five six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "FOR IDENTIFICATION TURN LEFT (or RIGHT) HEADING (three digits).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 for identification turn left heading zero two zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "GBAS (or SBAS) UNAVAILABLE.",
+        "when_used": "No data",
+        "category": "Aircraft, General",
+        "examples": "LGL123 GBAS unavailable.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "GBAS/SBAS/MLS/ILS CATEGORY (category) (serviceability state).",
+        "when_used": "To inform pilots of operational status of visual and non-visual aids.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 ILS category two not available.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "GIVE WAY TO (description and position of other aircraft).",
+        "when_used": "Pilot answers: GIVING WAY TO (traffic).",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 give way to incoming aircraft from your right.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "GNSS REPORTED UNRELIABLE (or GNSS MAY NOT BE AVAILABLE [DUE TO INTERFERENCE]). 1) IN THE VICINITY OF (location) (radius) [BETWEEN (levels)]. or 2) IN THE AREA OF (description) (or IN (name) FIR) [BETWEEN (levels)].",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 GNSS reported unreliable in the vicinity of FERDA between FL250 and FL390.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "GO AROUND",
+        "when_used": "Missed approachPilot answers: GOING AROUND",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC go around.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "GO AROUND IMMEDIATELY [missed approach instructions] (reason).",
+        "when_used": "Radar in approach control service.Related to go around procedures in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 go around immediately, climb three thousand feet on runway heading.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HANDOVER (aircraft call sign) [SQUAWKING (SSR code)] POSITION (aircraft position) (level).",
+        "when_used": "Handover",
+        "category": "Coordination between ATS Units",
+        "examples": "Handover LGL123 squawking 0325 position GONLI FL210.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HEADING IS GOOD.",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 heading is good.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HEADING IS GOOD.",
+        "when_used": "Radar in approach control service.Related to azimuth information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 heading is good.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD (direction) OF (position, runway number, etc.).",
+        "when_used": "Requires specific acknowledgement from the pilot. The procedure words ROGER and WILCO are insufficient acknowledgement of the instructions HOLD, HOLD POSITION and HOLD SHORT OF (position). In each case the acknowledgement shall be by the phraseology HOLDING or HOLDING SHORT, as appropriate.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 hold north of runway zero niner/two seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD (distance) FROM (position).",
+        "when_used": "Requires specific acknowledgement from the pilot. The procedure words ROGER and WILCO are insufficient acknowledgement of the instructions HOLD, HOLD POSITION and HOLD SHORT OF (position). In each case the acknowledgement shall be by the phraseology HOLDING or HOLDING SHORT, as appropriate.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 hold one five zero metres from runway zero niner / two seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD POSITION, CANCEL TAKE-OFF I SAY AGAIN CANCEL TAKE-OFF (reasons).",
+        "when_used": "To cancel a take-off clearancePilot answers: HOLDING",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 hold position, cancel take-off, I say again, cancel take-off, vehicle blocking the runway.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD POSITION.",
+        "when_used": "Requires specific acknowledgement from the pilot. The procedure words ROGER and WILCO are insufficient acknowledgement of the instructions HOLD, HOLD POSITION and HOLD SHORT OF (position). In each case the acknowledgement shall be by the phraseology HOLDING or HOLDING SHORT, as appropriate.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 hold position.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD SHORT OF (position)",
+        "when_used": "Requires specific acknowledgement from the pilot. The procedure words ROGER and WILCO are insufficient acknowledgement of the instructions HOLD, HOLD POSITION and HOLD SHORT OF (position). In each case the acknowledgement shall be by the phraseology HOLDING or HOLDING SHORT, as appropriate.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 hold short of runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOLD VISUAL [OVER] (position), (or BETWEEN (two prominent landmarks)).",
+        "when_used": "Visual holding",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 hold visual Eneby.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "HOW DO YOU READ?",
+        "when_used": "Means: \u201cWhat is the readability of my transmission?\u201d",
+        "category": "General",
+        "examples": "LGL 123 how do you read?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Hundred",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "HUN-dred",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "I SAY AGAIN",
+        "when_used": "Means: \u201cI repeat for clarity or emphasis.\u201d",
+        "category": "General",
+        "examples": "LGL 123 I say again proceed direct to MIKI.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IDENTIFICATION LOST [reasons] (instructions).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 identification lost due to radar failure continue own navigation.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IDENTIFIED [position].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 identified.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IF GOING AROUND (appropriate instructions).",
+        "when_used": "Pilot answers: GOING AROUNDRadar in approach control service.Related to go around procedures in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 if going around climb three thousand feet on runway heading.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IF NO CONTACT (instructions).",
+        "when_used": "Transfer of control and/or frequency change.",
+        "category": "General",
+        "examples": "LGL123 if no contact remain on this frequency.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IF NO TRANSMISSIONS RECEIVED FOR (number) MINUTES (or SECONDS) (instructions).",
+        "when_used": "When it is expected to lose communication with an aircraft (due to poor coverage for example).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 if no transmissions received for three minutes contact Horn control, one two three decimal seven five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IF UNABLE (alternative instructions) AND ADVISE.",
+        "when_used": "Where there is doubt that an aircraft can comply with a clearance or instruction.",
+        "category": "General",
+        "examples": "LGL123, if unable maintain FL210 and advise.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IF YOU READ [manoeuvre instructions or SQUAWK (code or IDENT)].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS and loss of communication is suspected.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 if you read squawk ident.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ILS (or MLS) RUNWAY (number) LEFT (or RIGHT) localiser (or MLS) FREQUENCY IS (frequency).",
+        "when_used": "Manoeuvre during independent and dependent parallel approachesRadar in approach control service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 ILS runway zero niner left localiser frequency is one one zero decimal one zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IN CASE OF GO AROUND (instructions).",
+        "when_used": "Radar in approach control serviceExplains provision of PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 in case of go around climb to altitude one thousand five hundred feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "INCREASE (or REDUCE) SPEED BY (number) KILOMETRES PER HOUR (or KNOTS).",
+        "when_used": "Speed ControlApplicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 reduce speed by two zero knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "INCREASE (or REDUCE) SPEED TO (number) KILOMETRES PER HOUR (or KNOTS) [OR GREATER (or OR LESS)].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 increase speed to two three zero knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "INTERCEPT (localiser course or radio aid) [REPORT ESTABLISHED].",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 intercept localiser course.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "IS (aircraft call sign) RELEASED [FOR CLIMB (or DESCENT)].",
+        "when_used": "By requesting unit to confirm or ask if an aircraft is released.",
+        "category": "Coordination between ATS Units",
+        "examples": "Is LGL123 released for climb?",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "JOIN (specify) AT (significant point) AT (level) [AT (time)].",
+        "when_used": "No data",
+        "category": "Area Control Services, General",
+        "examples": "LGL123 join upper golf 1 at GORLU at FL330 at time three two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "JOIN [(direction of circuit)] (position in circuit) (runway number) [SURFACE] WIND (direction and speed) (units) [TEMPERATURE [MINUS] (number)] QNH (or QFE) (number) [(units)] [TRAFFIC (detail)].",
+        "when_used": "Entering the circuit",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SEABC join right base right traffic circuit runway zero niner, surface wind one hundred degrees five knots temperature five QNH one zero one two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LANDING GEAR APPEARS DOWN",
+        "when_used": "When pilot requested visual inspection of landing gear.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC landing gear appears down.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LANDING SURFACE (condition).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Landing surface dry.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LEAVE (significant point) HEADING (three digits).",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 leave BELLO heading zero two zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LEAVE CONTROLLED AIRSPACE (or CONTROL ZONE) [VIA (significant point or route)] AT (level) (or CLIMBING, or DESCENDING).",
+        "when_used": "To clear an aircraft outside controlled airspace or control zone.",
+        "category": "Area Control Services, General",
+        "examples": "DMN leave controlled airspace via MOPIL at FL110.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LINE UP [AND WAIT].",
+        "when_used": "Clearance to enter runway and await take-off clearanceNote: When there is the possibility of confusion during multiple runway operations phraseology is: LINE UP RUNWAY (number) [AND WAIT]",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 line up and wait.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "LINE UP. BE READY FOR IMMEDIATE DEPARTURE.",
+        "when_used": "Clearance to enter runway and be ready for immediate departure.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL 123 line up. Be ready for immediate departure.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN",
+        "when_used": "Means: \u201cContinue in accordance with the condition(s) specified\u201d or in its literal sense.",
+        "category": "General",
+        "examples": "DCAWM Maintain VFR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (altitude) UNTIL GLIDE PATH INTERCEPTION.",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 maintain altitude three thousand feet until glide path interception.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) [TO (significant point)].",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) UNTIL (minutes) AFTER PASSING (significant point).",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain FL310 until two minutes after passing HAKAR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) UNTIL (time).",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain FL310 until time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) UNTIL ADVISED BY (name of unit).",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL 123 maintain FL310 until advised by Tampere control.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) UNTIL FURTHER ADVISED.",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL 123 maintain FL310 until further advised.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) UNTIL PASSING (significant point).",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain FL310 until passing HAKAR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (level) WHILE IN CONTROLLED AIRSPACE.",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain FL310 while in controlled airspace.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN (number) KILOMETRES PER HOUR (or KNOTS) [OR GREATER (or OR LESS)] [UNTIL (significant point)].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 maintain three zero zero knots or greater until LISAN.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN BLOCK (level) TO (level).",
+        "when_used": "Note.\u2014 The term \u201cMAINTAIN\u201d is not to be used in lieu of \u201cDESCEND\u201d or \u201cCLIMB\u201d when instructing an aircraft to change level.Block Means for an aircraft to operate between certain levels.",
+        "category": "Area Control Services",
+        "examples": "SVF123 maintain block FL270 to FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN MACH (number) [OR GREATER (or OR LESS)] [UNTIL (significant point)].",
+        "when_used": "Separation instructions.",
+        "category": "Area Control Services",
+        "examples": "LGL123 maintain mach decimal eight two or greater.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN OWN SEPARATION AND VMC [FROM (level)] [TO (level)].",
+        "when_used": "To require an aircraft to climb or descent maintaining own separation and VMC.",
+        "category": "General",
+        "examples": "LGL123 maintain own separation and VMC from FL310 to FL330.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN OWN SEPARATION AND VMC ABOVE (or BELOW, or TO) (level).",
+        "when_used": "To require an aircraft to climb or descent maintaining own separation and VMC.",
+        "category": "General",
+        "examples": "LGL123 maintain own separation and VMC below FL210.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN OWN SEPARATION.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 maintain own separation.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN PRESENT SPEED.",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 maintain present speed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAINTAIN VMC.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 maintain VMC.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE A THREE SIXTY TURN LEFT (or RIGHT) [reason].",
+        "when_used": "ManoeuvresApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 make a three sixty turn left for spacing.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE ALL TURNS RATE ONE (or RATE HALF, or (number) DEGREES PER SECOND) START AND STOP ALL TURNS ON THE COMMAND \u201cNOW\u201d.",
+        "when_used": "In case of unreliable directional instruments on board aircraft",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 make all turns rate one, start and stop all turns on the command \u201cnow\u201d.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE ANOTHER CIRCUIT",
+        "when_used": "Delaying aircraft",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC make another circuit.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE FULL STOP",
+        "when_used": "To instruct an aircraft to make a full stop landing (usually after performing a number of touch and goes).",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC make full stop.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE LONG APPROACH (or EXTEND DOWNWIND).",
+        "when_used": "No data",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC make long approach.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE SHORT APPROACH",
+        "when_used": "No data",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC make short approach.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE STRAIGHT-IN (or CIRCLING APPROACH, LEFT (or RIGHT) TURN TO (location, runway, taxiway, final approach and take-off area)) [ARRIVAL (or ARRIVAL ROUTE) (number, name, or code)]. [HOLD SHORT OF (active runway, extended runway centre line, other)]. [REMAIN (direction or distance) FROM (runway, runway centre line, other helicopter or aircraft)]. [CAUTION (power lines, unlighted obstructions, wake turbulence, etc.)]. CLEARED TO LAND.",
+        "when_used": "For helicopter operations.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Helicopter one make straight-in hold short of extended runway centre line runway zero niner. Cleared to land.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAKE STRAIGHT-IN APPROACH, RUNWAY (number) [SURFACE] WIND (direction and speed) (units) [TEMPERATURE [MINUS] (number)] QNH (or QFE) (number) [(units)] [TRAFFIC (detail)].",
+        "when_used": "Entering the circuit",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SEABC make straight-in approach, runway zero niner, surface wind one hundred degrees six knots temperature minus two QNH one zero one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MAY WE CHANGE CLEARANCE OF (aircraft call sign) TO (details of alteration proposed).",
+        "when_used": "Change of clearance. Said by requesting unit",
+        "category": "Coordination between ATS Units",
+        "examples": "May we change clearance of LGL123 to descend to proceed via FINDO.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Mayday Mayday Mayday (reason)",
+        "when_used": "In addition to being preceded by the radiotelephony distress signal MAYDAY, preferably spoken three times, the distress message to be sent by an  aircraft in distress shall:a) be on the air-ground frequency in use at the time.b) consist of as many as possible of the following elements spoken distinctly and, if possible, in the following order:1) name of the station addressed (time and circumstances permitting).2) the identification of the aircraft.3) the nature of the distress condition.4) intention of the person in command.5) present position, level (i.e. flight level, altitude, etc., as appropriate) and heading.",
+        "category": "Emergency or unusual situation",
+        "examples": "LGL123, mayday, mayday, mayday, fire onboard.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "MONITOR",
+        "when_used": "Means: \u201cListen out on (frequency).\u201d",
+        "category": "General",
+        "examples": "LGL123 monitor Tampere control one one eight decimal zero zero five",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "MONITOR (unit call sign) (frequency).",
+        "when_used": "An aircraft may be requested to \u201cSTAND BY\u201d on afrequency when it is intended that the ATS unit will initiate communications soon and to \u201cMONITOR\u201d a frequency when information is being broadcast thereon. Pilot responds: MONITORING (frequency)",
+        "category": "General",
+        "examples": "LGL123 monitor Tampere control one two four decimal one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NEGATIVE",
+        "when_used": "Means: \u201cNo\u201d or \u201cPermission not granted\u201d or \u201cThat is not correct\u201d or \u201cNot capable\u201d.",
+        "category": "General",
+        "examples": "Negative, LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NEGATIVE RVSM [(supplementary information, e.g. State aircraft)].",
+        "when_used": "To verbally supplement estimate messages of aircraft non-approved for RVSM or to verbally supplement an automated estimate message exchange that does not automatically transfer information from Item 18 of the flight plan followed by supplementary information, as appropriate",
+        "category": "Coordination between ATS Units",
+        "examples": "Negative RVSM, state aircraft.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NEXT REPORT AT (significant point).",
+        "when_used": "Position reporting.Applicable when an ATS surveillance system is used in the provision of ATS.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 next report at Brussels.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NEXT REPORT AT (significant point).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 next report at WIBOR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NO [ATC] SPEED RESTRICTIONS.",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 no ATC speed restrictions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NO DELAY EXPECTED.",
+        "when_used": "No data",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 no delay expected.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NO DETAILS",
+        "when_used": "Receiving unit reply (if flight plan details are not available to which sending unit replies with full estimate).",
+        "category": "Coordination between ATS Units",
+        "examples": "No details.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NO REPORTED TRAFFIC",
+        "when_used": "To pass traffic information",
+        "category": "General",
+        "examples": "LGL123 no reported traffic.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NOT IDENTIFIED [reason], [RESUME (or CONTINUE) OWN NAVIGATION].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 not identified due to equipment failure, resume own navigation.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "NUMBER ... FOLLOW (aircraft type and position) [additional instructions if required].",
+        "when_used": "In the circuit",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC number two follow Fokker five zero on short final.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in aircraft call signs",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "LGL123 Luxair one two three",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in altimeter setting",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "1 010 - QNH one zero one zero",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in altitude information",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "12 000 ft one two thousand feet",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in cloud height",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "2 200 ft - two thousand two hundred feet",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in flight levels",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "FL 180 - flight level one eight zero",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in runway designator",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "27 - runway two seven",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in runway visual range",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "Runway visual range runway zero niner six hundred metres.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in transponder codes",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.DRED.",
+        "category": "General",
+        "examples": "2 400 - squawk two four zero zero",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Numbers in visibility",
+        "when_used": "All numbers shall be transmitted by pronouncing each digit separately, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "Visibility 1000m - Visibility one thousand meters",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OMIT POSITION REPORTS [UNTIL (specify)].",
+        "when_used": "Position reporting.Applicable when an ATS surveillance system is used in the provision of ATS.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 omit position reports until Brussels.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OMIT POSITION REPORTS [UNTIL (specify)].",
+        "when_used": "To omit position reports until a specified position.",
+        "category": "General",
+        "examples": "LGL123 omit position reports until WIBOR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ON GLIDE PATH.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 on glide path.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ON TRACK.",
+        "when_used": "Radar in approach control service.Related to azimuth information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 on track.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ORBIT (RIGHT, or LEFT) [FROM PRESENT POSITION].",
+        "when_used": "Delaying aircraft",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC orbit left from present position.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ORBIT LEFT (or RIGHT) [reason].",
+        "when_used": "ManoeuvresApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 orbit left for delay.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OUT",
+        "when_used": "Means: \u201cThis exchange of transmissions is ended and no response is expected.\u201dNote.\u2014 Not normally used in VHF communications.",
+        "category": "General",
+        "examples": "Out.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OVER",
+        "when_used": "Means: \u201cMy transmission is ended, and I expect a response from you.\u201dNote.\u2014 Not normally used in VHF communications.",
+        "category": "General",
+        "examples": "Over.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OVER APPROACH LIGHTS.",
+        "when_used": "Radar in approach control service.PAR Approach.Related to position information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 over approach lights.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OVER THRESHOLD",
+        "when_used": "Radar in approach control service.PAR Approach.Related to position information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 over threshold.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "OVER THRESHOLD.",
+        "when_used": "Radar in approach control serviceSurveillance radar approachChecks",
+        "category": "Approach Control Services",
+        "examples": "LGL123 over threshold.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Pan Pan, Pan Pan, Pan Pan (reason)",
+        "when_used": "In addition to being preceded by the radiotelephony urgency signal PAN PAN, preferably spoken three times and each word of the group pronounced as the French word \u201cpanne\u201d, the urgency message to be sent by an aircraft reporting an urgency condition shall:a) be on the air-ground frequency in use at the time.b) consist of as many as required of the following elements spoken distinctly and, if possible, in the following order:1) the name of the station addressed.2) the identification of the aircraft.3) the nature of the urgency condition.4) the intention of the person in command.5) present position, level (i.e. flight level, altitude, etc., as appropriate) and heading.6) any other useful information.",
+        "category": "Emergency or unusual situation",
+        "examples": "Approach, AFR411, PAN PAN, PAN PAN, PAN PAN, SICK PERSON ONBOARD, SUSPECTED HEART ATTACK",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "PILOT REPORTS (weather information).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Pilot reports wind sheer final runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "POSITION (distance) (direction) OF (significant point) (or OVER or ABEAM (significant point)).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 position over ELLEN",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "POSITION (number) KILOMETRES (or MILES) from (fix). TURN LEFT (or RIGHT) HEADING (three digits).",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 position eight miles from Oscar Whisky, turn right heading  three five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PRECISION APPROACH NOT AVAILABLE DUE (reason) (alternative instructions).",
+        "when_used": "Radar in approach control serviceExplains provision of PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 precision approach not available due to unservicability of instruments",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PRESENT WEATHER (details).",
+        "when_used": "The details are: mean surface wind direction and speed and significant variations there from:b) visibility, including significant directional variations.c) runway visual range (RVR).d) present weather.e) amount and height of base of low cloud.f) air temperature and dew-point temperature.g) altimeter setting(s). andh) supplementary information.Note.\u2014 Information on surface wind direction provided to ATS units by the associated meteorological office is referenced to degrees true North. Information on surface wind direction obtained from the ATS surface wind indicator and passed to pilots by ATS units is given in degrees magnetic.",
+        "category": "General",
+        "examples": "Present weather, rain.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PRIMARY RADAR OUT OF SERVICE (appropriate information as necessary).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 primary radar out of service.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PROCEED OFFSET (distance) RIGHT/LEFT OF (route) (track) [CENTRE LINE] [AT (significant point or time)] [UNTIL (significant point or time)].",
+        "when_used": "Instructions associated with flying a track (offset), parallel to the cleared route.",
+        "category": "Area Control Services",
+        "examples": "LGL123 proceed offset one five miles right of upper Mike seven three zero centre line until STEVE.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PUSHBACK [APPROVED or AT OWN DISCRETION] or STANDBY",
+        "when_used": "Note. - When local procedures so prescribe, authorization for pushback should be obtained from the control tower.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 pushback approved",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "PUSHBACK COMPLETED.",
+        "when_used": "Pilot answers: STOP PUSHBACK.",
+        "category": "Ground Crew",
+        "examples": "LGL123 pushback completed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "QFE (number) [(units)].",
+        "when_used": "Altimeter setting procedures.",
+        "category": "General",
+        "examples": "QFE niner niner five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "QNH (number) [units].",
+        "when_used": "Altimeter setting procedures.",
+        "category": "General",
+        "examples": "QNH one zero one two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RADAR CONTACT [position].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 radar contact.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RADAR SERVICE (or IDENTIFICATION) TERMINATED [DUE (reason)] (instructions).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 radar control terminated due to leaving radar coverage.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RATE OF DESCENT IS GOOD.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 rate of descent is good.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RE-ENTER [ADS-B or MODE S] AIRCRAFT IDENTIFICATION.",
+        "when_used": "To request reselection of aircraft identification",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 re enter Mode S aircraft identification.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "READ BACK",
+        "when_used": "Means: \u201cRepeat all, or the specified part, of this message back to me exactly as received.\u201d",
+        "category": "General",
+        "examples": "LGL123 read back clearance.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RECLEARED",
+        "when_used": "Means:  \u201cA change has been made to your last clearance and this new clearance supersedes your previous clearance or part thereof.\u201d",
+        "category": "General",
+        "examples": "LGL123 recleared FL330.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RECLEARED (amended clearance details) [REST OF CLEARANCE UNCHANGED].",
+        "when_used": "When a change has been made to the last clearance and this new clearance supersedes the previous clearance or part thereof.",
+        "category": "Area Control Services, General",
+        "examples": "LGL123 recleared upper november two six zero to HARBO, rest of clearance unchanged.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RECLEARED (amended route portion) TO (significant point of original route) [REST OF CLEARANCE UNCHANGED].",
+        "when_used": "When a change has been made to the last clearance and this new clearance supersedes the previous clearance or part thereof.",
+        "category": "Area Control Services, General",
+        "examples": "LGL123 recleared upper golf one to FRANKI, rest of clearance unchanged.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REDUCE TO MINIMUM APPROACH SPEED.",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 reduce to minimum approach speed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REDUCE TO MINIMUM CLEAN SPEED.",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 reduce to minimum clean speed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REMAIN THIS FREQUENCY.",
+        "when_used": "Transfer of control and/or frequency change.",
+        "category": "General",
+        "examples": "LGL123 remain this frequency.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPLY NOT RECEIVED (instructions).",
+        "when_used": "No reply from an aircraft.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 reply not received, send again",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPLY NOT RECEIVED. WILL CONTINUE INSTRUCTIONS.",
+        "when_used": "Radar in approach control serviceRelated to communications in PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 reply not received will continue instructions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT",
+        "when_used": "Means:  \u201cPass me the following information...\u201d",
+        "category": "General",
+        "examples": "LGL123 report flight conditions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point).",
+        "when_used": "To request a report at a specified place or distancePilot reports: (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point).",
+        "category": "General",
+        "examples": "LGL123 report one five miles from Horn DME.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT (GNSS or DME) DISTANCE FROM (significant point) or (name of DME station).",
+        "when_used": "To request a report of present positionPilot reports: (distance) MILES (GNSS or DME) FROM (name of DME station) (or significant point).",
+        "category": "General",
+        "examples": "LGL123 report distance from TONPA",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT (significant point). [OUTBOUND, or INBOUND].",
+        "when_used": "To request a report.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report Oscar Whisky outbound.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT AIRBORNE",
+        "when_used": "Turn or climb instructions after take off. To request airborne time.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 report airborne.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT BASE (or FINAL, or LONG FINAL).",
+        "when_used": "Note.\u2014 The report \u201cLONG FINAL\u201d is made when aircraft turn on to final approach at a distance greater than 7 km (4 NM) from touchdown or when an aircraft on a straight-in approach is 15 km (8 NM) from touchdown. In both cases a report \u201cFINAL\u201d is required at 7 km (4 NM) from touchdown.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC report base.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT COMMENCING PROCEDURE TURN.",
+        "when_used": "To request a pilot report when procedure turn is commenced during approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report commencing procedure turn.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT ESTABLISHED ON [ILS] LOCALISER (or ON GBAS/SBAS/MLS APPROACH COURSE).",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report established on ILS localiser.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT ESTABLISHED ON GLIDE PATH.",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report established on glide path.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT FLIGHT CONDITIONS",
+        "when_used": "To request a pilot report about meteorological conditions.",
+        "category": "General",
+        "examples": "LGL123 report flight conditions.&lt;br /&gt;",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT HEADING [AND FLIGHT LEVEL (or ALTITUDE)].",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 report heading.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT LEAVING (or REACHING, or PASSING) (level).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 report leaving FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT PASSING (significant point).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 report passing Boman.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT PASSING (three digits) RADIAL (name of VOR) VOR.",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 report passing one one zero radial Veta VOR.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT RUNWAY [LIGHTS] IN SIGHT.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report runway lights in sight.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT RUNWAY [LIGHTS] IN SIGHT.",
+        "when_used": "Surveillance radar approach. Radar in approach control service. To inform of completion of approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report runway in sight.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT RUNWAY [LIGHTS] IN SIGHT.",
+        "when_used": "Radar in approach control service. Related to completion of approach in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report runway in sight.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT SPEED",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATSPilot answers: SPEED (number) KILOMETRES PER HOUR (or KNOTS).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 report speed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT VISUAL.",
+        "when_used": "Radar in approach control service. Related to completion of approach in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report visual.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT VISUAL.",
+        "when_used": "Surveillance radar approach. Radar in approach control service. To inform of completion of approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report visual.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT VISUAL.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 report visual.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT WHEN ABLE TO RESUME RVSM",
+        "when_used": "To request an aircraft to provide information as soon as RVSM approved status has been regained or the pilot is ready to resume RVSM operations",
+        "category": "Area Control Services",
+        "examples": "LGL123 report able to resume RVSM.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORT WHEN READY [FOR DEPARTURE].",
+        "when_used": "Pilot answers: Ready",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 report when ready for departure.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REPORTS REQUIRED ONLY AT (significant point(s)).",
+        "when_used": "Position reporting.Applicable when an ATS surveillance system is used in the provision of ATS.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 next report required only at Brussels and Diekirch.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REQUEST",
+        "when_used": "Means: \u201cI should like to know...\u201d or \u201cI wish to obtain...\u201d",
+        "category": "General",
+        "examples": "LGL123 request level change from Tampere control at time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REQUEST (distance) FINAL.",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.",
+        "category": "Approach Control Services, Aircraft",
+        "examples": "LGL123 request eight miles final.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST (MLS/RNAV plain-language designator).",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "Bilbo Approach, LGL123 request MLS approach runway zero niner.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST (type of approach) APPROACH [RUNWAY (number)].",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 request VOR DME approach procedure.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST AIR-TAXIING FROM (or VIA) TO (location or routing as appropriate).",
+        "when_used": "For helicopter operations",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "Helicopter one request air-taxiing to apron North.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST BACKTRACK.",
+        "when_used": "To request backtrack (usually after landing).",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request backtrack.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST CHANGE TO (frequency).",
+        "when_used": "Controller responds: FREQUENCY CHANGE APPROVED / DENIED",
+        "category": "Aircraft, General",
+        "examples": "LGL123 request change to one two four decimal one five.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST CROSS RUNWAY (number).",
+        "when_used": "To request crossing a runway",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request cross runway zero niner.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST DEPARTURE INFORMATION",
+        "when_used": "To request aerodrome data for departure",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request departure information.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST DEPARTURE INSTRUCTIONS",
+        "when_used": "To request departure instructions",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request departure instructions.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST DESCENT AT (time).",
+        "when_used": "No data",
+        "category": "Aircraft",
+        "examples": "Request descent at time four five, LGL123.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST HOLDING INSTRUCTIONS.",
+        "when_used": "No data",
+        "category": "Approach Control Services, Area Control Services, Aircraft",
+        "examples": "LGL123 request holding instructions.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST LEVEL (or FLIGHT LEVEL or ALTITUDE) CHANGE FROM (name of unit) [AT (time or significant point)].",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 request flight level change from Tampere control at RUNUS.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REQUEST LOW APPROACH (reasons).",
+        "when_used": "Done to make an approach along, or parallel to a runway, descending to an agreed minimum level.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "SBC request low approach for training.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST LOW PASS (reasons).",
+        "when_used": "To fly past the control tower or other observation point for the purpose of visual inspection by persons on the ground.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "SBC request low pass to check if right wheel is out.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST RELEASE OF (aircraft call sign).",
+        "when_used": "By requesting unit when requesting a release of an aircraft.",
+        "category": "Coordination between ATS Units",
+        "examples": "Request release of LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REQUEST RIGHT (or LEFT) TURN",
+        "when_used": "Turn or climb instructions after take off.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request right turn",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST STRAIGHT-IN (or CIRCLING APPROACH, LEFT (or RIGHT) TURN TO (location)).",
+        "when_used": "For helicopter operations.",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "Helicopter one request straight-in to apron North.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST STRAIGHT-IN [(type of approach)] APPROACH [RUNWAY (number)].",
+        "when_used": "To request straight-in approach.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 request straight-in ILS approach runway zero niner.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST TIME CHECK.",
+        "when_used": "To request a time check",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "LGL123 request time check",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST TOW [company name] (aircraft type) FROM (location) TO (location).",
+        "when_used": "Pilot or tow vehicle transmission",
+        "category": "Aerodrome and Vicinity, Aircraft",
+        "examples": "Tow vehicle one request tow Luxair Fokker five zero from terminal to apron North.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST VISUAL APPROACH.",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 request visual approach.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "REQUEST VMC DESCENT",
+        "when_used": "No data",
+        "category": "Approach Control Services",
+        "examples": "LGL123 request VMC descent.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "RESET SQUAWK [(mode)] (code).",
+        "when_used": "Pilot answers: ResettingTo request the pilot to reselect the assigned mode and code",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 reset squawk Charlie four one six two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME NORMAL RATE OF DESCENT.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 resume normal rate of descent.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME NORMAL SPEED",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 resume normal speed.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME OWN NAVIGATION (position of aircraft) (specific instructions).",
+        "when_used": "Termination of VectoringApplicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 resume own navigation, one one miles south of SKI, report SKI to Horn control, one two three decimal seven five zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME OWN NAVIGATION [DIRECT] (significant point) [MAGNETIC TRACK (three digits) DISTANCE (number) KILOMETRES (or MILES)].",
+        "when_used": "Termination of VectoringApplicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 resume own navigation SKI",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME POSITION REPORTING.",
+        "when_used": "Position reporting.Applicable when an ATS surveillance system is used in the provision of ATS.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 resume position reporting.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RESUME POSITION REPORTING.",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 resume position reporting.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REVERT TO FLIGHT PLAN CALL SIGN (call sign) [AT (significant point)].",
+        "when_used": "To advise an aircraft to revert to the call sign indicated in the flight plan",
+        "category": "General",
+        "examples": "LGL123A revert to flight plan call  sign LGL123 at SKILO.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REVISED EXPECTED APPROACH TIME (time).",
+        "when_used": "No data",
+        "category": "Approach Control Services, Area Control Services",
+        "examples": "LGL123 revised expected approach time four six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "REVISION (aircraft call sign) (details as necessary).",
+        "when_used": "Sending unit",
+        "category": "Coordination between ATS Units",
+        "examples": "Revision LGL123 estimating BURKI at time four seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RIGHT (or LEFT) TURN APPROVED",
+        "when_used": "Turn or climb instructions after take off",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 right turn approved",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RIGHT (or LEFT, or NOSE) WHEEL APPEARS UP (or DOWN).",
+        "when_used": "When pilot requested visual inspection of landing gear.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC right wheel appears up.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RIGHT (or LEFT, or NOSE) WHEEL DOES NOT APPEAR UP (or DOWN).",
+        "when_used": "When pilot requested visual inspection of landing gear.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC left wheel does not appear down",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "ROGER",
+        "when_used": "Means: \u201cI have received all of your last transmission.\u201dNote.\u2014 Under no circumstances to be used in reply to a question requiring \u201cREAD BACK\u201d or a direct answer in the affirmative (AFFIRM) or negative (NEGATIVE).",
+        "category": "General",
+        "examples": "Roger, LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY (number) CLEARED FOR TAKE-OFF [REPORT AIRBORNE].",
+        "when_used": "To issue a take-off clearance.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123, runway zero niner cleared for take off",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY (number) CLEARED TO LAND",
+        "when_used": "To clear an aircraft for landing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 runway zero niner, cleared to land.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY (number), WIND (direction and speed) (units) QNH (or QFE) (number) [(units)] TEMPERATURE [MINUS] (number), [VISIBILITY (distance) (units) (or RUNWAY VISUAL RANGE (or RVR) (distance) (units))] [TIME (time)].",
+        "when_used": "To request aerodrome data for departureNote.\u2014 If multiple visibility and RVR observations are available, those that represent the roll-out/stop end zone should be used for take-off.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 runway zero niner, wind one hundred degrees seven knots, QNH one zero one twol, temperature five, runway visual range two four zero metres.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY (or TAXIWAY) (number) WET [or DAMP, WATER PATCHES, FLOODED (depth), or SNOW REMOVED (length and width as applicable), or TREATED, or COVERED WITH PATCHES OF DRY SNOW (or WET SNOW, or COMPACTED SNOW, or SLUSH, or FROZEN SLUSH, or ICE, or ICE UNDERNEATH, or ICE AND SNOW, or SNOWDRIFTS, or FROZEN RUTS AND RIDGES)].",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Runway zero niner snow removed one thousand eight hundred meters, taxiway Charlie covered with frozen ruts or ridges.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY REPORT AT (observation time) RUNWAY (number) (type of precipitant) UP TO (depth of deposit) MILLIMETRES. BRAKING ACTION GOOD (or MEDIUM TO GOOD, or MEDIUM, or MEDIUM TO POOR, or POOR or UNRELIABLE) [and/or BRAKING COEFFICIENT (equipment and number)].",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Runway report at time one zero two five runway zero niner wet snow up to one zero millimetres. Braking coefficient friction tester zero point two seven.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (distance) (units).",
+        "when_used": "To report RVR",
+        "category": "General",
+        "examples": "Runway visual range runway zero niner six hundred metres.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (first position) (distance) (units), (second position) (distance) (units), (third position) (distance) (units).",
+        "when_used": "Used for multiple RVR observationsNote 1.\u2014 Multiple RVR observations are always representative of the touchdown zone, midpoint zone and the roll-out/stop end zone, respectively.Note 2.\u2014 Where reports for three locations are given, the indication of these locations may be omitted, provided that the reports are passed in the order of touchdown zone, followed by the midpoint zone and ending with the roll-out/stop end zone report.All numbers, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "Runway visual range runway zero niner, touchdown six hundred metres, midpoint five four zero metres, stop end five four zero metres.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY VISUAL RANGE (or RVR) [RUNWAY (number)] (first position) (distance) (units), (second position) NOT AVAILABLE, (third position) (distance) (units).",
+        "when_used": "Multiple RVR observations are always representative of the touchdown zone, midpoint zone and the roll-out/stop end zone respectively.Where reports for the three locations are given, the indication of these locations may be omitted, provided that the reports are passed in order of touchdown zone, followed by midpoint zone and ending with the roll-out/stop end zone report. In the event that RVR information on any one position is not available this information will be included in the appropriate sequence.All numbers, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations ofthousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "RVR runway zero niner, touchdown six hundred metres, midpoint not available, stop end five four zero metres.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "RUNWAY VISUAL RANGE (or RVR) RUNWAY (number) NOT AVAILABLE (or NOT REPORTED).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "RVR runway zero niner not reported.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SAY AGAIN",
+        "when_used": "Means: \u201cRepeat all, or the following part, of your last transmission.\u201d",
+        "category": "General",
+        "examples": "LGL123 say again.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SECONDARY RADAR OUT OF SERVICE (appropriate information as necessary).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 secondary radar out of service.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SHOW LANDING LIGHTS.",
+        "when_used": "No data",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 show landing lights.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SLIGHTLY (or WELL, or GOING) ABOVE (or BELOW) GLIDE PATH.",
+        "when_used": "Radar in approach control service.PAR Approach.Elevation.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 well above glide path.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SLIGHTLY (or WELL, or GOING) LEFT (or RIGHT) OF TRACK.",
+        "when_used": "Radar in approach control service.Related to azimuth information in PAR approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 slightly left of track.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SPEAK SLOWER",
+        "when_used": "Means: \u201cReduce your rate of speech.\u201d",
+        "category": "General",
+        "examples": "LGL123 speak slower.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK (code).",
+        "when_used": "To instruct the setting of the transponder",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 squawk seven one three two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK [(code)] [AND] IDENT.",
+        "when_used": "To request the operation of the ident feature",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 squawk ident.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK CHARLIE.",
+        "when_used": "To request transmission of pressure altitude",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL 123 squawk Charlie.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK LOW.",
+        "when_used": "To request the operation of the ident feature",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "Blue123 squawk low.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK MAYDAY [CODE SEVEN-SEVEN-ZERO-ZERO].",
+        "when_used": "To request emergency code",
+        "category": "SSR and ADS-B Phraseologies, Emergency or unusual situation",
+        "examples": "LGL123 squawk mayday. Code seven-seven-zero-zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK NORMAL.",
+        "when_used": "To request the operation of the ident feature",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "Blue123 squawk normal.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "SQUAWK STANDBY.",
+        "when_used": "To request temporary suspension of transponder operation",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 squawk standby.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STAND BY FOR (unit call sign) (frequency).",
+        "when_used": "An aircraft may be requested to \u201cSTAND BY\u201d on afrequency when it is intended that the ATS unit will initiate communications soon and to \u201cMONITOR\u201d a frequency when information is being broadcast thereon.",
+        "category": "General",
+        "examples": "LGL123 stand by for Tampere control one one eight decimal zero zero five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STANDBY",
+        "when_used": "Means: \u201cWait and I will call you.\u201dNote.\u2014 The caller would normally re-establish contact if the delay is lengthy. STANDBY is not an approval or denial.",
+        "category": "Aircraft, General",
+        "examples": "LGL123 standby for further instructions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "START UP APPROVED.",
+        "when_used": "ATC reply when permission to start engines is requested by the pilot.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 start up approved.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP ADS-B ALTITUDE TRANSMISSION [(WRONG INDICATION, or reason)].",
+        "when_used": "To request termination of pressure altitude transmission because of faulty operation.Note.\u2014 Independent operations of Mode S transponder and ADS-B may not be possible in all aircraft (e.g. where ADS-B is solely provided by 1 090 MHz extended squitter emitted from the transponder). In such cases, aircraft may not be able to comply with ATC instructions related to ADS-B operation.",
+        "category": "SSR and ADS-B Phraseologies, Emergency or unusual situation",
+        "examples": "LGL123 stop ADS-B altitude transmission, wrong indication.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP ADS-B TRANSMISSION [SQUAWK (code) ONLY].",
+        "when_used": "To request termination of transponder and/or ADS-B transmitter operationNote.\u2014 Independent operations of Mode S transponder and ADS-B may not be possible in all aircraft (e.g. where ADS-B is solely provided by 1 090 MHz extended squitter emitted from the transponder). In such cases, aircraft may not be able to comply with ATC instructions related to ADS-B operation.",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 stop ADS-B transmission.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP CLIMB (or DESCENT) AT (level).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 stop climb at FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP IMMEDIATELY [(repeat aircraft call sign) STOP IMMEDIATELY].",
+        "when_used": "To stop a take-off after an aircraft has commenced take-off rollPilot answers: STOPPING",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 stop immediately, LGL123 stop immediately.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP SQUAWK [TRANSMIT ADS-B ONLY].",
+        "when_used": "To request termination of transponder and/or ADS-B transmitter operationNote.\u2014 Independent operations of Mode S transponder and ADS-B may not be possible in all aircraft (e.g. where ADS-B is solely provided by 1 090 MHz extended squitter emitted from the transponder). In such cases, aircraft may not be able to comply with ATC instructions related to ADS-B operation.",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "Blue123 stop squawk.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP SQUAWK CHARLIE WRONG INDICATION",
+        "when_used": "To request termination of pressure altitude transmission because of faulty operation.Note.\u2014 Independent operations of Mode S transponder and ADS-B may not be possible in all aircraft (e.g. where ADS-B is solely provided by 1 090 MHz extended squitter emitted from the transponder). In such cases, aircraft may not be able to comply with ATC instructions related to ADS-B operation.",
+        "category": "SSR and ADS-B Phraseologies, Emergency or unusual situation",
+        "examples": "LGL123 stop squawk Charlie wrong indication.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP TURN HEADING (three digits).",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 stop turn heading one eight zero.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "STOP TURN NOW.",
+        "when_used": "ManoeuvresApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 stop turn now.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAKE (or TURN) FIRST (or SECOND) LEFT (or RIGHT).",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 take first left.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAKE (or TURN) FIRST (or SECOND, or CONVENIENT) LEFT (or RIGHT) AND CONTACT GROUND (frequency).",
+        "when_used": "Instruction after landing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 take first left and contact ground one two one decimal six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAKE OFF IMMEDIATELY OR HOLD SHORT OF RUNWAY.",
+        "when_used": "When take-off clearance has not been complied with",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 take off immediately or hold short of runway.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAKE OFF IMMEDIATELY OR VACATE RUNWAY [(instructions)].",
+        "when_used": "When take-off clearance has not been complied with",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 take off immediately or vacate runway via taxiway Bravo.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAKING YOU THROUGH (localiser course or radio aid) [reason].",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 taking you through localiser course for delay action.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI [VIA (identification of taxiway)] or [STRAIGHT AHEAD] and/or.  [WITH CAUTION]",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi straight ahead.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI INTO HOLDING BAY.",
+        "when_used": "To instruct an aircraft to taxi into a holding bay.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi into holding bay.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI TO HOLDING POINT [number] (followed by aerodrome information as applicable) [TIME (time)].",
+        "when_used": "Where aerodrome information is not available from an alternative source such as ATIS.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "CLX315 taxi to holding point zero niner aerodrome information Bravo time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI TO HOLDING POINT [number] [RUNWAY (number)] [HOLD SHORT OF RUNWAY (number) (or CROSS RUNWAY (number))] [TIME (time)].",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi to holding point alpha runway three four.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI TO HOLDING POINT [number] [RUNWAY (number)] VIA (specific route to be followed) [TIME (time)] [HOLD SHORT OF RUNWAY (number) (or CROSS RUNWAY (number))].",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "CLX315 taxi to holding point zero niner via taxiways Golf and Yankee, time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI TO HOLDING POINT [number] [RUNWAY (number)] VIA (specific route to be followed), [HOLD SHORT OF RUNWAY (number)] or [CROSS RUNWAY (number)]. [REPORT VACATED]",
+        "when_used": "To cross runwayPilot Answers: RUNWAY VACATED. Note.\u2014 The pilot will, when requested, report \u201cRUNWAY VACATED\u201d when the entire aircraft is beyond the relevant runway-holding position.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi to holding point charly runway zero niner via taxiway bravo, cross runway one eight, report vacated.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI TO TERMINAL (or other location, e.g. GENERAL AVIATION AREA) [STAND (number)].",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi to terminal stand one four.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXI VIA RUNWAY (number).",
+        "when_used": "To issue taxi instruction.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxi via runway one niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TAXIWAY LIGHTING (description of deficiency).",
+        "when_used": "To inform pilots of operational status of visual and non-visual aids.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 taxiway lighting partly unserviceable.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TCAS RA.",
+        "when_used": "After a flight crew starts to deviate from any ATC clearance or instruction to comply with an ACAS resolution advisory (RA). Controller answers ROGER.",
+        "category": "Emergency or unusual situation, Aircraft, General",
+        "examples": "LGL123 TCAS RA.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "TEMPERATURE [MINUS] (number) (and/or DEWPOINT [MINUS] (number)).",
+        "when_used": "Temperature report.",
+        "category": "General",
+        "examples": "Temperature minus two dew-point minus two.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "THIS TURN WILL TAKE YOU THROUGH (localiser course or radio aid) [reason].",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 this turn will take you through Horn radial two six niner due traffic.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "THIS WILL BE A PRECISION RADAR APPROACH RUNWAY (number).",
+        "when_used": "Radar in approach control serviceExplains provision of PAR approach service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 this will be a precision radar approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "THIS WILL BE A SURVEILLANCE RADAR APPROACH RUNWAY (number) TERMINATING AT (distance) FROM TOUCHDOWN, OBSTACLE CLEARANCE ALTITUDE (or HEIGHT) (number) METRES (or FEET) CHECK YOUR MINIMA [IN CASE OF GO AROUND (instructions)].",
+        "when_used": "Surveillance radar approach. Radar in approach control service. Explains provision of surveillance radar approach service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 this will be a surveillance approach runway zero niner terminating at eight NM from touchdown, obstacle clearance altitude five hundred feet check your minima.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "Thousand",
+        "when_used": "Transmission of numbers.",
+        "category": "General",
+        "examples": "TOU-SAND",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TIME (time).",
+        "when_used": "To request a time check",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 time four five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TOW APPROVED VIA (specific routing to be followed). or HOLD POSITION or STAND BY",
+        "when_used": "No data",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Tow vehicle one, tow approved via taxiways Foxtrot, Yankee and Delta, cross runway zero niner/two seven and via runway zero one to apron North.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TOWER OBSERVES (weather information).",
+        "when_used": "To pass information on aerodrome conditions.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "Tower observes thunderstorm activity north of airfield.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRACK (three digits) DEGREES [MAGNETIC (or TRUE)] TO (or FROM) (significant point) UNTIL (time, or REACHING (fix or significant point or level)) [BEFORE PROCEEDING ON COURSE].",
+        "when_used": "To assign a route to follow after airborne.",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 track one zero zero degrees to TOR until reaching altitude five thousand feet before proceeding on course.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRACK EXTENDED CENTRE LINE (instructions).",
+        "when_used": "Turn or climb instructions after take off.When a specific track is to be followed.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 track extended centre line until five thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRAFFIC (information)",
+        "when_used": "To pass traffic information.To acknowledge pilot answers (one of the following three): LOOKING OUT, TRAFFIC IN SIGHT, or NEGATIVE CONTACT [reasons].",
+        "category": "General",
+        "examples": "LGL123 traffic a Saab three four zero passed Skiro time one two flight level one eight zero estimate Horn time two one.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRAFFIC (number) O\u2019CLOCK (distance) (direction of flight) [any other pertinent information]: 1) UNKNOWN. 2) SLOW MOVING. 3) FAST MOVING. 4) CLOSING. 5) OPPOSITE (or SAME) DIRECTION. 6) OVERTAKING. 7) CROSSING LEFT TO RIGHT (or RIGHT TO LEFT). 8) (aircraft type). 9) (level). 10) CLIMBING (or DESCENDING).",
+        "when_used": "Items 8 and 9 if knownTo request avoiding action pilot replies: REQUEST VECTORS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 Traffic two o\u2019clock seven miles northbound, unknown, crossing right to left.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRAFFIC (or type of aircraft) IN SIGHT.",
+        "when_used": "Pilot's response when instructed to give way or follow while taxing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 traffic in sight.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "TRANSMIT ADS-B ALTITUDE",
+        "when_used": "To request transmission of pressure altitude",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 transmit ADS-B altitude.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRANSMIT ADS-B IDENT.",
+        "when_used": "To request the operation of the ident feature",
+        "category": "SSR and ADS-B Phraseologies",
+        "examples": "LGL123 transmit ADS-B IDENT.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TRANSMIT FOR IDENTIFICATION AND REPORT HEADING.",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 transmit for identification and report heading.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) (number of degrees) DEGREES [reason].",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 turn left five degrees.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) (number of degrees) DEGREES IMMEDIATELY TO AVOID [UNIDENTIFIED] TRAFFIC AT (bearing by clock-reference and distance).",
+        "when_used": "For avoiding action.",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 turn left three zero degrees immediately to avoid traffic at one o\u2019clock six miles.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) (number) DEGREES (or HEADING) (three digits) IMMEDIATELY TO AVOID TRAFFIC [DEVIATING FROM ADJACENT APPROACH], CLIMB TO (altitude).",
+        "when_used": "Manoeuvre during independent and dependent parallel approachesRadar in approach control service For avoidance action when an aircraft is observed penetrating the NTZ",
+        "category": "Approach Control Services",
+        "examples": "LGL123 turn right four zero degrees immediately to avoid traffic deviating from adjacent approach, climb to five thousand feet.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) HEADING (three digits) [reason].",
+        "when_used": "VectoringApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 turn right heading two five zero due traffic.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) HEADING (three digits) [TO INTERCEPT] or [REPORT ESTABLISHED].",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.Instructions and information.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 turn right heading one one zero to intercept.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) IMMEDIATELY HEADING (three digits) TO AVOID [UNIDENTIFIED] TRAFFIC (bearing by clock-reference and distance).",
+        "when_used": "For avoiding action",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 turn left immediately heading two five zero to avoid unidentified traffic at two o\u2019clock six miles.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN LEFT (or RIGHT) NOW",
+        "when_used": "ManoeuvresApplicable when an ATS surveillance system is used in the provision of ATSNote.\u2014 When it is necessary to specify a reason for vectoring or for the above manoeuvres, the following phraseologies should be used:a) DUE TRAFFIC.b) FOR SPACING.c) FOR DELAY.d) FOR DOWNWIND (or BASE, or FINAL).",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 turn left now.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "TURN RIGHT (or LEFT) HEADING (three digits) TO (level) [TO INTERCEPT (track, route, airway, etc.)].",
+        "when_used": "To assign a route to follow after airborne.",
+        "category": "Approach Control Services, Aerodrome and Vicinity",
+        "examples": "LGL123 turn left heading zero two zero to FL70 to intercept upper Mike eight five one.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE",
+        "when_used": "Means: \u201cI cannot comply with your request, instruction, or clearance.\u201dNote.\u2014 UNABLE is normally followed by a reason.",
+        "category": "General",
+        "examples": "LGL123, if unable maintain FL210 and advise.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE (aircraft call sign) [TRAFFIC IS (details)].",
+        "when_used": "By approving unit when not able to release an aircraft.",
+        "category": "Coordination between ATS Units",
+        "examples": "Unable LGL123 traffic is airbus three ten crossing left to right.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE (aircraft call sign).",
+        "when_used": "Change of clearance. Said by approving unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "Unable LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE (desired route, level, etc.) [FOR (aircraft call sign)] [DUE (reason)] (alternative clearance proposed).",
+        "when_used": "Change of clearance. Said by approving unit.",
+        "category": "Coordination between ATS Units",
+        "examples": "Unable to proceed via FINDO for LGL123 due to military activity.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE ISSUE CLEARANCE INTO RVSM AIRSPACE, MAINTAIN [or DESCEND TO, or CLIMB TO] (level).",
+        "when_used": "To deny ATC clearance into RVSM airspace",
+        "category": "Area Control Services",
+        "examples": "LGL123 unable clearance into RVSM airspace, maintain FL280.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE RNP (specify type) (or RNAV) [DUE TO (reason, e.g. LOSS OF RAIM or RAIM ALERT)].",
+        "when_used": "No data",
+        "category": "Aircraft, General",
+        "examples": "LGL123 unable RNAV due to equipment.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "UNABLE RVSM DUE EQUIPMENT",
+        "when_used": "To report that the equipment of an aircraft has degraded below minimum aviation system performance standards",
+        "category": "Area Control Services, Aircraft",
+        "examples": "LGL123, unable RVSM due equipment.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "UNABLE RVSM DUE TURBULENCE",
+        "when_used": "To report when severe turbulence affects the capability of an aircraft to maintain height-keeping requirements for RVSM",
+        "category": "Area Control Services, Aircraft",
+        "examples": "LGL123, unable RVSM due turbulence.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "UNABLE RVSM DUE TURBULENCE (or EQUIPMENT, as applicable).",
+        "when_used": "To communicate the cause of a contingency relating to an aircraft that is unable to conduct RVSM operations due to severe turbulence or other severe meteorological phenomena or equipment failure, asapplicable",
+        "category": "Coordination between ATS Units",
+        "examples": "Unable RVSM due turbulence.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE TO ISSUE (designator) DEPARTURE (reasons)",
+        "when_used": "When not able to issue the requested departure (SID).",
+        "category": "Aerodrome and Vicinity",
+        "examples": "No data.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE, TCAS RA",
+        "when_used": "After an ATC clearance or instruction contradictory to the ACAS RA is received, the flight crew will follow the RA and inform ATC directly. Controller answers ROGER.",
+        "category": "Emergency or unusual situation, Aircraft, General",
+        "examples": "LGL123 unable, TCAS RA.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "UNABLE, TRAFFIC (direction) BOUND (type of aircraft) (level) ESTIMATED (or OVER) (significant point) AT (time) CALL SIGN (call sign) ADVISE INTENTIONS.",
+        "when_used": "When clearance for deviation cannot be issued",
+        "category": "Area Control Services",
+        "examples": "LGL123 unable, traffic westbound Boeing seven three seven, same level, over GORLU at time thee six call sign DLH567, advise intentions.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "UNABLE.",
+        "when_used": "When a pilot is unable to comply with a clearance or instruction.",
+        "category": "Aircraft, General",
+        "examples": "Unable to comply, LGL123.",
+        "who_says": "The Pilot"
+    },
+    {
+        "syntax": "VACATE RUNWAY.",
+        "when_used": "Pilot transmission is RUNWAY VACATED.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 vacate runway.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VECTORING FOR (positioning in the circuit).",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 vectoring for base leg.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VECTORING FOR (type of pilot-interpreted aid) APPROACH RUNWAY (number).",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 vectoring for NDB approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VECTORING FOR PRECISION APPROACH RUNWAY (number).",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 vectoring for precision approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VECTORING FOR SURVEILLANCE RADAR APPROACH RUNWAY (number).",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 vectoring for surveillance radar approach runway zero niner.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VECTORING FOR VISUAL APPROACH RUNWAY (number) REPORT FIELD (or RUNWAY) IN SIGHT.",
+        "when_used": "Radar in approach control service.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 vectoring for visual approach runway zero niner report field in sight.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "VISIBILITY (distance) (units) [direction].",
+        "when_used": "To report visibility.",
+        "category": "General",
+        "examples": "Visibility eight kilometers",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WHEELS APPEAR UP",
+        "when_used": "When pilot requested visual inspection of landing gear",
+        "category": "Aerodrome and Vicinity",
+        "examples": "SBC wheels appear up.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WHEN READY CLIMB (or DESCEND) TO (level).",
+        "when_used": "No data",
+        "category": "General",
+        "examples": "LGL123 when ready descend to FL310.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WHEN READY CONTACT (unit call sign) (frequency).",
+        "when_used": "Transfer of control and/or frequency change.",
+        "category": "General",
+        "examples": "LGL123 when ready contact Tampere control one two four decimal one five.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WHEN VACATED CONTACT GROUND (frequency).",
+        "when_used": "Runway vacating and communications after landing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 when vacated contact ground one two one decimal six.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WILCO",
+        "when_used": "Means: \u201cI understand your message and will comply with it.\u201d(Abbreviation for \u201cwill comply\u201d.)",
+        "category": "General",
+        "examples": "Wilco, LGL123.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WILL ADVISE LATER FOR RIGHT (or LEFT) TURN",
+        "when_used": "Turn or climb instructions after take off",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 will advise later for right turn.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WILL SHORTLY LOSE IDENTIFICATION (appropriate instructions or information).",
+        "when_used": "Applicable when an ATS surveillance system is used in the provision of ATS",
+        "category": "General ATS Surveillance Service Phraseologies",
+        "examples": "LGL123 will shortly lose identification due to radar coverage.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WIND AT (level) (number) DEGREES (number) KILOMETRES PER HOUR (or KNOTS).",
+        "when_used": "Note.\u2014 Wind is always expressed by giving the mean direction and speed and any significant variations thereof.All numbers, except those used in the transmission of altitude, cloud height, visibility and runway visual range (RVR) information, which contain whole hundreds and whole thousands, shall be transmitted by pronouncing each digit in the number of hundreds or thousands followed by the word HUNDRED or THOUSAND as appropriate. Combinations of thousands and whole hundreds shall be transmitted by pronouncing each digit in the number of thousands followed by the word THOUSAND followed by the number of hundreds followed by the word HUNDRED.",
+        "category": "General",
+        "examples": "Wind at five hundred feet, one zero zero degrees two niner knots.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "WORDS TWICE",
+        "when_used": "Means: a) As a request: \u201cCommunication is difficult. Please send every word, or group of words, twice.\u201db) As information: \u201cSince communication is difficult, every word, or group of words, in this message will be sent twice.\u201d",
+        "category": "General",
+        "examples": "LGL123 words twice, I say again words twice.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "YOU HAVE CROSSED THE localiser (or GBAS/SBAS/MLS FINAL APPROACH COURSE). TURN LEFT (or RIGHT) IMMEDIATELY AND RETURN TO THE localiser (or GBAS/SBAS/MLS FINAL APPROACH COURSE).",
+        "when_used": "Manoeuvre during independent and dependent parallel approachesRadar in approach control service",
+        "category": "Approach Control Services",
+        "examples": "LGL123 you have crossed the localiser, turn left immediately and return to the localiser.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "YOU WILL INTERCEPT (radio aid or track) (distance) FROM (significant point or TOUCHDOWN).",
+        "when_used": "Radar in approach control service.Vectoring for ILS and other pilot-interpreted aids.",
+        "category": "Approach Control Services",
+        "examples": "LGL123 you will intercept track zero niner zero eight miles from Oscar Whisky.",
+        "who_says": "The Controller"
+    },
+    {
+        "syntax": "YOUR STAND (or GATE) (designation).",
+        "when_used": "Information after landing.",
+        "category": "Aerodrome and Vicinity",
+        "examples": "LGL123 your stand one four.",
+        "who_says": "The Controller"
+    }
+]
